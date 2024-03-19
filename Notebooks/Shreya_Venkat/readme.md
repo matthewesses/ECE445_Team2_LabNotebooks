@@ -1,1 +1,12 @@
-Enter file contents here
+# 3/18: Implement I2C communication with the STM32
+
+## I2C Basics:
+- I2C has a master-slave setup, where the STM32 will be acting as the master and the components it needs to communicate with
+are the slaves (LiDAR, Doppler, etc.)
+- SDA (Serial Data) is the line on which the master and the slave communicate information.
+- SCL (Serial Clock) is the clock line for data flow synchronization.
+- Both of these lines are bi-directional.
+
+### Potentially Useful Link:
+[I2C on STM](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
+
