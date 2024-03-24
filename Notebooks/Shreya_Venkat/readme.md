@@ -21,3 +21,9 @@ are the slaves (LiDAR, Doppler, etc.)
 [I2C Basics w/Arduino](https://www.youtube.com/watch?v=6IAkYpmA1DQ)
 [I2C on STM](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
 
+## Connecting STM32 to LiDAR
+- Goal: Get distance readings from LiDAR using I2C: master is STM32 and slave is LiDAR
+- Determine I2C pins on both devices and connect them.
+- Determine I2C address of LiDAR.
+  
+
