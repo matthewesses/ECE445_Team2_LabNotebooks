@@ -1,6 +1,6 @@
-# 3/18: Implement I2C communication with the STM32
+# Task for 3/18: Implement I2C communication with the STM32
 
-## I2C Overview
+## Overview of I2C Protocol
 - I2C has a master-slave setup, where the STM32 will be acting as the master and the components it needs to communicate with
 are the slaves (LiDAR, Doppler, etc.)
 - SDA (Serial Data) is the line on which the master and the slave communicate information.
@@ -8,7 +8,7 @@ are the slaves (LiDAR, Doppler, etc.)
 - Both of these lines are bi-directional.
 - Devices on the I2C bus are active low, so they need pull up resistors to force the devices to high (inactive).
 
-## Data Protocol
+## I2C Data Transfer Protocol
 1. Start Condition: data line is low, clock line is high
 2. First 8 bits come in: first 7 - address of the slave to which data is being sent, last 1 - read/write. 0 = master writes to slave, 1 = master reads from slave
 3. Acknowledge Bit - used by slave device to indicate whether previous sequence of bits was successfully received. If yes, it pulls SDA line down.
@@ -17,13 +17,13 @@ are the slaves (LiDAR, Doppler, etc.)
 6. Stop Condition: data line goes from low to high while clock line is high
 - Each data transfer occurs on a falling clock edge
 
-### Potentially Useful Links:
-[I2C Basics w/Arduino](https://www.youtube.com/watch?v=6IAkYpmA1DQ)
-[I2C on STM](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
+For more information on above two sections: [I2C Basics w/Arduino](https://www.youtube.com/watch?v=6IAkYpmA1DQ)
 
 ## Connecting STM32 to LiDAR
 - Goal: Get distance readings from LiDAR using I2C: master is STM32 and slave is LiDAR
 - Determine I2C pins on both devices and connect them.
 - Determine I2C address of LiDAR.
-  
+More information: [I2C on Arduino IDE](https://docs.arduino.cc/learn/communication/wire/)
 
+## Other Potentially Useful Links:
+[I2C on STM](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
