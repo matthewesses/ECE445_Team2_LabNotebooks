@@ -22,8 +22,8 @@ For more information on above two sections: [I2C Basics w/Arduino](https://www.y
 ## Connecting STM32 to LiDAR
 - Arduino IDE Setup: [STM32duino Reference](https://github.com/stm32duino/Arduino_Core_STM32#getting-started)
 - Goal: Get distance readings from LiDAR using I2C: master is STM32 and slave is LiDAR
-- Determine I2C pins on both devices and connect them.
-- Determine I2C address of LiDAR.
+- Determine I2C pins on both devices and connect them. LiDAR: Pin 4 is SCL, Pin 5 is SDA
+- Determine I2C address of LiDAR. Default is 0x62.
 - Program will be located in this repository.
 More information: [I2C on Arduino IDE](https://docs.arduino.cc/learn/communication/wire/)
 
