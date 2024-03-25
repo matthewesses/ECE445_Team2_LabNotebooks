@@ -1,4 +1,4 @@
-# Task for 3/18: Implement I2C communication with the STM32
+# Task for Week of 3/18: Implement I2C communication with the STM32
 
 ## Overview of I2C Protocol
 - I2C has a master-slave setup, where the STM32 will be acting as the master and the components it needs to communicate with
@@ -15,7 +15,7 @@ are the slaves (LiDAR, Doppler, etc.)
 4. 8 bit address representing the internal registers of the slave device
 5. Acknowledge + Data Sequence. Transfer occurs from either master or slave depending on R/W mode.
 6. Stop Condition: data line goes from low to high while clock line is high
-- Each data transfer occurs on a falling clock edge
+- Each data transfer occurs on a rising clock edge
 
 For more information on above two sections: [I2C Basics w/Arduino](https://www.youtube.com/watch?v=6IAkYpmA1DQ)
 
@@ -26,6 +26,12 @@ For more information on above two sections: [I2C Basics w/Arduino](https://www.y
 - Determine I2C address of LiDAR. Default is 0x62.
 - Program will be located in this repository.
 More information: [I2C on Arduino IDE](https://docs.arduino.cc/learn/communication/wire/)
+LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp-content/uploads/2017/03/LIDAR-Lite-v1-Datasheet.pdf)
 
 ## Other Potentially Useful Links:
-[I2C on STM](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
+[STM32 Wiki for ECE 445] (https://courses.engr.illinois.edu/ece445/wiki/#/)
+[I2C on STM w/CubeIDE](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
+
+# Task for Week of 3/25: Receiving I2C Readings from the Spinning Motor
+
+# Task for Week of 3/30: Using LEDs to indicate relative distances
