@@ -7,6 +7,8 @@
 // Modified from https://playground.arduino.cc/Main/I2cScanner/
 // --------------------------------------
 
+// added page link: https://learn.adafruit.com/scanning-i2c-addresses/arduino
+
 #include <Wire.h>
 
 // Set I2C bus to use: Wire, Wire1, etc.
