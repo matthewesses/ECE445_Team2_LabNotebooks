@@ -5,7 +5,7 @@
 #define INIT_DATA 0x04
 
 void setup() {
-  // put your setup code here, to run once:
+  // setup code
   Wire.begin();
   Serial.begin(9600);
 
@@ -13,13 +13,16 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+
+  // attempt to initialize the LiDAR before communication
   Wire.beginTransmission(LIDAR_ADDRESS);
   Wire.write(INIT_REG);
   Wire.write(INIT_DATA);
   Wire.endTransmission();
 
   delay(10);
-  
+
+  // once initialization is successful, request data
   Wire.requestFrom(LIDAR_ADDRESS, 1);
   while (Wire.available()) {
     char c = Wire.read();
