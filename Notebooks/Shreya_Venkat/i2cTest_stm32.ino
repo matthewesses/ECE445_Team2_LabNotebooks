@@ -8,12 +8,9 @@ void setup() {
   // setup code
   Wire.begin();
   Serial.begin(9600);
-
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
   // attempt to initialize the LiDAR before communication
   Wire.beginTransmission(LIDAR_ADDRESS);
   Wire.write(INIT_REG);
