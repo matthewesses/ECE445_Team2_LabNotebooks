@@ -29,8 +29,11 @@ More information: [I2C on Arduino IDE](https://docs.arduino.cc/learn/communicati
 LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp-content/uploads/2017/03/LIDAR-Lite-v1-Datasheet.pdf)
 
 ## Other Potentially Useful Links:
-[STM32 Wiki for ECE 445] (https://courses.engr.illinois.edu/ece445/wiki/#/)
+[STM32 Wiki for ECE 445](https://courses.engr.illinois.edu/ece445/wiki/#/)
 [I2C on STM w/CubeIDE](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
+
+## COMPLETED YAY
+[Getting Distances with Wire Library on Arduino](https://github.com/PulsedLight3D/LIDARLite_Basics/blob/master/Arduino/LIDARLite_Wire_Library_GetDistance_ContinuousRead/LIDARLite_Wire_Library_GetDistance_ContinuousRead.ino)
 
 # Task for Week of 3/25: Receiving I2C Readings from the Spinning Motor
 
