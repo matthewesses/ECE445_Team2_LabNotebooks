@@ -83,7 +83,7 @@
           (number "3" (effects (font (size 1.27 1.27))))
         )
         (pin output line (at 12.7 2.54 180) (length 2.54)
-          (name "SWDCLK/TCK" (effects (font (size 1.27 1.27))))
+          (name "SWCLK/TCK" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 0 -15.24 90) (length 2.54) hide
@@ -700,6 +700,45 @@
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.032 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R" (at 0 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -1439,96 +1478,6 @@
         )
       )
     )
-    (symbol "basic:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "basic:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1673,10 +1622,53 @@
         )
       )
     )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
   )
 
   (junction (at 173.99 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 03d45c00-f738-4c88-a9ae-9153a880ae9c)
+  )
+  (junction (at 243.84 127) (diameter 0) (color 0 0 0 0)
+    (uuid 05214d9d-bcc9-419e-972c-591b76e22dde)
   )
   (junction (at 53.34 172.72) (diameter 0) (color 0 0 0 0)
     (uuid 05b0a1b3-2997-4ae9-9de5-81762d0e5c77)
@@ -1693,7 +1685,7 @@
   (junction (at 44.45 125.73) (diameter 0) (color 0 0 0 0)
     (uuid 0c369701-bd42-489a-8657-3ea3819666da)
   )
-  (junction (at 49.53 33.02) (diameter 0) (color 0 0 0 0)
+  (junction (at 49.53 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 0c5fb78c-060d-4479-b3f1-c3937487a5f1)
   )
   (junction (at 189.23 57.15) (diameter 0) (color 0 0 0 0)
@@ -1702,7 +1694,7 @@
   (junction (at 265.43 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 1047d5d1-dbec-4d65-aeea-054892d92a91)
   )
-  (junction (at 44.45 33.02) (diameter 0) (color 0 0 0 0)
+  (junction (at 44.45 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 15ba6f8b-f6ad-4da0-8e83-1ed20ae6ac08)
   )
   (junction (at 262.89 104.14) (diameter 0) (color 0 0 0 0)
@@ -1710,6 +1702,9 @@
   )
   (junction (at 184.15 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 1901437d-a5f1-4171-afad-0e3f67164fb6)
+  )
+  (junction (at 279.4 127) (diameter 0) (color 0 0 0 0)
+    (uuid 19c3424b-df83-46c1-86e5-3ffc3f6ff196)
   )
   (junction (at 179.07 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 1b06bc15-4139-42c4-a4ff-c388a0cd959c)
@@ -1738,7 +1733,7 @@
   (junction (at 124.46 177.8) (diameter 0) (color 0 0 0 0)
     (uuid 3fe8218a-2d0b-4805-9248-6977b02eac9f)
   )
-  (junction (at 55.88 26.67) (diameter 0) (color 0 0 0 0)
+  (junction (at 54.61 19.05) (diameter 0) (color 0 0 0 0)
     (uuid 4261f41f-7078-44ae-a5f7-edcb507db9ac)
   )
   (junction (at 107.95 177.8) (diameter 0) (color 0 0 0 0)
@@ -1789,7 +1784,7 @@
   (junction (at 176.53 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 81f5d034-a5fd-4406-aa60-4c4a93f833cd)
   )
-  (junction (at 49.53 31.75) (diameter 0) (color 0 0 0 0)
+  (junction (at 48.26 24.13) (diameter 0) (color 0 0 0 0)
     (uuid 82735bce-50e9-4f9e-b1fa-80479dc40dc6)
   )
   (junction (at 200.66 147.32) (diameter 0) (color 0 0 0 0)
@@ -1807,19 +1802,22 @@
   (junction (at 241.3 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 90809297-fde9-4e63-8034-24a05d8432f0)
   )
-  (junction (at 44.45 31.75) (diameter 0) (color 0 0 0 0)
+  (junction (at 43.18 24.13) (diameter 0) (color 0 0 0 0)
     (uuid 9728750e-3600-4ff3-8911-2ee67a3af4f3)
   )
-  (junction (at 39.37 34.29) (diameter 0) (color 0 0 0 0)
+  (junction (at 39.37 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 9a7b75cd-7e7b-4af3-9662-d19a2361f8e5)
+  )
+  (junction (at 262.89 40.64) (diameter 0) (color 0 0 0 0)
+    (uuid 9a9219c1-f59d-47d8-8d36-0bc1b851a176)
   )
   (junction (at 200.66 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 9afeca6b-ef71-4e19-a144-7b239de9a94a)
   )
-  (junction (at 38.1 26.67) (diameter 0) (color 0 0 0 0)
+  (junction (at 36.83 19.05) (diameter 0) (color 0 0 0 0)
     (uuid 9c80a5ef-0630-4039-83ad-8ab08442d8e4)
   )
-  (junction (at 44.45 26.67) (diameter 0) (color 0 0 0 0)
+  (junction (at 43.18 19.05) (diameter 0) (color 0 0 0 0)
     (uuid 9f563af3-b324-4aa8-8734-2dddd61f4af4)
   )
   (junction (at 53.34 184.15) (diameter 0) (color 0 0 0 0)
@@ -1840,7 +1838,7 @@
   (junction (at 168.91 113.03) (diameter 0) (color 0 0 0 0)
     (uuid a80e85ab-4745-48ff-b0aa-533c466a168e)
   )
-  (junction (at 49.53 26.67) (diameter 0) (color 0 0 0 0)
+  (junction (at 48.26 19.05) (diameter 0) (color 0 0 0 0)
     (uuid a9264d24-0cd7-43ea-91f9-e34a8ba00be0)
   )
   (junction (at 123.19 177.8) (diameter 0) (color 0 0 0 0)
@@ -1864,11 +1862,8 @@
   (junction (at 182.88 20.32) (diameter 0) (color 0 0 0 0)
     (uuid c5774c15-6107-48b6-8aa5-623e4a6817c2)
   )
-  (junction (at 64.77 31.75) (diameter 0) (color 0 0 0 0)
+  (junction (at 63.5 24.13) (diameter 0) (color 0 0 0 0)
     (uuid c6e9a9d2-ff35-4e0d-916b-c133108c6204)
-  )
-  (junction (at 31.75 34.29) (diameter 0) (color 0 0 0 0)
-    (uuid c83ec928-9100-4a1f-bf4f-69b75bcda3df)
   )
   (junction (at 181.61 113.03) (diameter 0) (color 0 0 0 0)
     (uuid cba3c865-f55e-40d0-af01-284fe63f205b)
@@ -1876,10 +1871,10 @@
   (junction (at 265.43 43.18) (diameter 0) (color 0 0 0 0)
     (uuid ce9e98c4-a258-4032-abab-b1143bede4c6)
   )
-  (junction (at 55.88 31.75) (diameter 0) (color 0 0 0 0)
+  (junction (at 54.61 24.13) (diameter 0) (color 0 0 0 0)
     (uuid cfd9dd4b-5d2b-42fb-9a1b-c34347230a81)
   )
-  (junction (at 46.99 33.02) (diameter 0) (color 0 0 0 0)
+  (junction (at 46.99 27.94) (diameter 0) (color 0 0 0 0)
     (uuid d3b2cc66-751e-4518-aa0e-ee81f2972ad4)
   )
   (junction (at 171.45 57.15) (diameter 0) (color 0 0 0 0)
@@ -1897,6 +1892,9 @@
   (junction (at 200.66 154.94) (diameter 0) (color 0 0 0 0)
     (uuid e537e6ae-155a-468f-8c8f-4c17f49b8f95)
   )
+  (junction (at 31.75 29.21) (diameter 0) (color 0 0 0 0)
+    (uuid ed541a4e-8b6b-4d88-889a-9e8b0b1e90ab)
+  )
   (junction (at 171.45 113.03) (diameter 0) (color 0 0 0 0)
     (uuid ef5166b2-aebe-4ce0-96fc-5360d6702a61)
   )
@@ -1911,6 +1909,9 @@
   )
   (junction (at 265.43 30.48) (diameter 0) (color 0 0 0 0)
     (uuid f6e2ccd6-a333-490a-9d7f-027e0c371e2d)
+  )
+  (junction (at 41.91 33.02) (diameter 0) (color 0 0 0 0)
+    (uuid fa8a812b-5211-4393-b04d-b7f18be16a23)
   )
   (junction (at 185.42 20.32) (diameter 0) (color 0 0 0 0)
     (uuid fbe2a6ed-1344-4fcf-81e4-cf02a87e8439)
@@ -1938,13 +1939,17 @@
   (no_connect (at 62.23 82.55) (uuid f118c222-a749-4db1-b004-46bf2b5aeecd))
   (no_connect (at 203.2 99.06) (uuid fa6985c6-e805-488c-8976-ff26a355d7ef))
 
-  (wire (pts (xy 69.85 35.56) (xy 69.85 31.75))
+  (wire (pts (xy 68.58 29.21) (xy 68.58 24.13))
     (stroke (width 0) (type default))
     (uuid 01a7efa3-0aa7-4fe3-b533-f97da8317670)
   )
-  (wire (pts (xy 39.37 33.02) (xy 39.37 34.29))
+  (wire (pts (xy 39.37 27.94) (xy 39.37 29.21))
     (stroke (width 0) (type default))
     (uuid 042b1cf2-e6e1-44ba-b34f-5b56f6a1f0a8)
+  )
+  (wire (pts (xy 31.75 29.21) (xy 31.75 34.29))
+    (stroke (width 0) (type default))
+    (uuid 05e5b84b-1aea-49a8-aa91-da8b22f52362)
   )
   (wire (pts (xy 105.41 124.46) (xy 105.41 128.27))
     (stroke (width 0) (type default))
@@ -1978,6 +1983,10 @@
     (stroke (width 0) (type default))
     (uuid 11d8ea07-9154-4d97-ac71-aa43c9151bd8)
   )
+  (wire (pts (xy 68.58 29.21) (xy 69.85 29.21))
+    (stroke (width 0) (type default))
+    (uuid 124372bc-2b5f-4f84-b9b7-a2265eaa4a30)
+  )
   (wire (pts (xy 179.07 57.15) (xy 181.61 57.15))
     (stroke (width 0) (type default))
     (uuid 12da5e80-ecb8-4fcc-847c-6b654ce21020)
@@ -1989,6 +1998,10 @@
   (wire (pts (xy 152.4 46.99) (xy 146.05 46.99))
     (stroke (width 0) (type default))
     (uuid 16e3fd62-de1c-4b01-8f2d-6ec112bd8fba)
+  )
+  (wire (pts (xy 41.91 29.21) (xy 41.91 33.02))
+    (stroke (width 0) (type default))
+    (uuid 175ef48f-5580-4394-918e-ee787f0c34f8)
   )
   (wire (pts (xy 90.17 50.8) (xy 90.17 41.91))
     (stroke (width 0) (type default))
@@ -2002,9 +2015,9 @@
     (stroke (width 0) (type default))
     (uuid 18cd09a9-8b13-4f4c-b1eb-9ebe5b349975)
   )
-  (wire (pts (xy 52.07 34.29) (xy 52.07 33.02))
+  (wire (pts (xy 243.84 127) (xy 247.65 127))
     (stroke (width 0) (type default))
-    (uuid 1fd6fa93-b45a-4862-af6c-c458ef489d44)
+    (uuid 1c6b7ee5-6934-4c1e-a087-bbd357f77390)
   )
   (wire (pts (xy 152.4 33.02) (xy 152.4 35.56))
     (stroke (width 0) (type default))
@@ -2026,11 +2039,15 @@
     (stroke (width 0) (type default))
     (uuid 292cae7a-7390-4ff2-9953-b752a2f0a0ae)
   )
+  (wire (pts (xy 262.89 40.64) (xy 262.89 43.18))
+    (stroke (width 0) (type default))
+    (uuid 2b14c56a-fc16-481f-8054-e2260df2ca7e)
+  )
   (wire (pts (xy 82.55 91.44) (xy 82.55 95.25))
     (stroke (width 0) (type default))
     (uuid 2b41f9ec-af48-4b1c-a89d-f4e4ecc0b122)
   )
-  (wire (pts (xy 55.88 31.75) (xy 64.77 31.75))
+  (wire (pts (xy 54.61 24.13) (xy 63.5 24.13))
     (stroke (width 0) (type default))
     (uuid 2b8af35f-8d50-433b-b7c5-c4a379cad75f)
   )
@@ -2038,7 +2055,11 @@
     (stroke (width 0) (type default))
     (uuid 2e0c71d5-d2ed-4f77-998f-1e6b2a6b3a09)
   )
-  (wire (pts (xy 49.53 26.67) (xy 55.88 26.67))
+  (wire (pts (xy 44.45 27.94) (xy 44.45 34.29))
+    (stroke (width 0) (type default))
+    (uuid 2eae615c-9fb6-44ab-9d53-2223ac1f69d4)
+  )
+  (wire (pts (xy 48.26 19.05) (xy 54.61 19.05))
     (stroke (width 0) (type default))
     (uuid 2eb8735c-4c38-4dba-8824-8ac5a732060e)
   )
@@ -2046,7 +2067,7 @@
     (stroke (width 0) (type default))
     (uuid 3201e60f-5cc0-42df-97fe-e7a1b55e20f9)
   )
-  (wire (pts (xy 49.53 31.75) (xy 55.88 31.75))
+  (wire (pts (xy 48.26 24.13) (xy 54.61 24.13))
     (stroke (width 0) (type default))
     (uuid 33ac0776-7e85-4a69-9582-10ee8c194dac)
   )
@@ -2054,9 +2075,13 @@
     (stroke (width 0) (type default))
     (uuid 35ed533f-0d38-48cd-85f8-d14c13a8923e)
   )
-  (wire (pts (xy 46.99 33.02) (xy 44.45 33.02))
+  (wire (pts (xy 46.99 27.94) (xy 44.45 27.94))
     (stroke (width 0) (type default))
     (uuid 382c7d2c-57e8-4c38-8aee-5d24279c20df)
+  )
+  (wire (pts (xy 69.85 29.21) (xy 69.85 35.56))
+    (stroke (width 0) (type default))
+    (uuid 38b014f0-f017-4db5-9f45-a7b785a855f1)
   )
   (wire (pts (xy 152.4 43.18) (xy 152.4 46.99))
     (stroke (width 0) (type default))
@@ -2070,15 +2095,11 @@
     (stroke (width 0) (type default))
     (uuid 3ebd3f04-0e9c-4497-aff1-dfdaa4e74128)
   )
-  (wire (pts (xy 44.45 34.29) (xy 44.45 33.02))
-    (stroke (width 0) (type default))
-    (uuid 41b40800-e5a0-4552-a696-36bdfa3f72d4)
-  )
   (wire (pts (xy 265.43 50.8) (xy 265.43 53.34))
     (stroke (width 0) (type default))
     (uuid 427f0ecd-b467-4f62-a977-f8111ec93286)
   )
-  (wire (pts (xy 38.1 26.67) (xy 44.45 26.67))
+  (wire (pts (xy 36.83 19.05) (xy 43.18 19.05))
     (stroke (width 0) (type default))
     (uuid 447217fa-e3c7-4d46-9bcb-79cf7728d1f8)
   )
@@ -2086,7 +2107,7 @@
     (stroke (width 0) (type default))
     (uuid 46a52784-f597-45f2-9fd6-a697520b748d)
   )
-  (wire (pts (xy 278.13 127) (xy 280.67 127))
+  (wire (pts (xy 278.13 127) (xy 279.4 127))
     (stroke (width 0) (type default))
     (uuid 470bc84c-62d1-42e2-b578-ca0637d0b114)
   )
@@ -2138,7 +2159,11 @@
     (stroke (width 0) (type default))
     (uuid 5d5ae805-25ca-442d-a385-a4d25e5a96d6)
   )
-  (wire (pts (xy 46.99 34.29) (xy 46.99 33.02))
+  (wire (pts (xy 52.07 27.94) (xy 52.07 34.29))
+    (stroke (width 0) (type default))
+    (uuid 5de5b8e3-169c-4287-a501-4178c9a5f12d)
+  )
+  (wire (pts (xy 46.99 27.94) (xy 46.99 34.29))
     (stroke (width 0) (type default))
     (uuid 60e375e5-fbbf-42f7-b9b9-ff63e7778d7a)
   )
@@ -2154,6 +2179,10 @@
     (stroke (width 0) (type default))
     (uuid 63e2cd2f-2350-42aa-b6a5-8e8c4f803f7f)
   )
+  (wire (pts (xy 41.91 33.02) (xy 41.91 34.29))
+    (stroke (width 0) (type default))
+    (uuid 6420543a-1efc-42c0-b65d-ebc2f0c63df1)
+  )
   (wire (pts (xy 138.43 46.99) (xy 146.05 46.99))
     (stroke (width 0) (type default))
     (uuid 65929261-bb13-4e60-bf57-f318d3c3b525)
@@ -2162,7 +2191,11 @@
     (stroke (width 0) (type default))
     (uuid 69af8c87-ac7c-4f46-a058-1690167baff8)
   )
-  (wire (pts (xy 31.75 34.29) (xy 39.37 34.29))
+  (wire (pts (xy 241.3 88.9) (xy 241.3 95.25))
+    (stroke (width 0) (type default))
+    (uuid 6b782cf5-bb06-4815-ac78-69e9206b24e7)
+  )
+  (wire (pts (xy 31.75 29.21) (xy 39.37 29.21))
     (stroke (width 0) (type default))
     (uuid 6bfef2c4-a7e9-44cb-ad8d-e719b08072cc)
   )
@@ -2170,7 +2203,7 @@
     (stroke (width 0) (type default))
     (uuid 6d404a43-2c49-49bc-99cd-074dbad8f8c2)
   )
-  (wire (pts (xy 241.3 127) (xy 247.65 127))
+  (wire (pts (xy 241.3 127) (xy 243.84 127))
     (stroke (width 0) (type default))
     (uuid 6df39068-6e1a-4f20-9bd4-36d665ff3e76)
   )
@@ -2178,7 +2211,7 @@
     (stroke (width 0) (type default))
     (uuid 6eb663f5-c603-4f4b-ad7a-679e8202682c)
   )
-  (wire (pts (xy 44.45 31.75) (xy 49.53 31.75))
+  (wire (pts (xy 43.18 24.13) (xy 48.26 24.13))
     (stroke (width 0) (type default))
     (uuid 6ecb69c3-3cdf-4dc5-ab3b-ed6009a0da07)
   )
@@ -2242,7 +2275,7 @@
     (stroke (width 0) (type default))
     (uuid 80dcc5be-de38-4361-b5b7-0b467f856076)
   )
-  (wire (pts (xy 39.37 34.29) (xy 41.91 34.29))
+  (wire (pts (xy 39.37 29.21) (xy 41.91 29.21))
     (stroke (width 0) (type default))
     (uuid 812e32e0-dc85-49bb-965a-f056ede10fe0)
   )
@@ -2258,7 +2291,7 @@
     (stroke (width 0) (type default))
     (uuid 864610ec-a2f6-4572-a953-bdfbc3f8a468)
   )
-  (wire (pts (xy 31.75 26.67) (xy 38.1 26.67))
+  (wire (pts (xy 31.75 19.05) (xy 36.83 19.05))
     (stroke (width 0) (type default))
     (uuid 8745bdda-0cbf-45f9-bc58-dd8d7126ca79)
   )
@@ -2294,6 +2327,14 @@
     (stroke (width 0) (type default))
     (uuid 92d43a99-5b84-4ac4-a9fe-d1ba0aab3ad9)
   )
+  (wire (pts (xy 243.84 143.51) (xy 243.84 127))
+    (stroke (width 0) (type default))
+    (uuid 93805b7f-ed03-47a2-ab5d-12ea41bcd878)
+  )
+  (wire (pts (xy 279.4 121.92) (xy 279.4 127))
+    (stroke (width 0) (type default))
+    (uuid 967230b3-070e-4bc5-9d9d-003d7226419e)
+  )
   (wire (pts (xy 200.66 132.08) (xy 200.66 129.54))
     (stroke (width 0) (type default))
     (uuid 98b27f5c-506b-4f23-b309-d45bbf26c565)
@@ -2314,15 +2355,19 @@
     (stroke (width 0) (type default))
     (uuid 9c5e7f3d-a7b5-444f-97d4-3c9003ded40b)
   )
+  (wire (pts (xy 279.4 127) (xy 280.67 127))
+    (stroke (width 0) (type default))
+    (uuid 9d304033-adc6-4fc2-89f0-fe17b82ca6bf)
+  )
   (wire (pts (xy 144.78 59.69) (xy 144.78 60.96))
     (stroke (width 0) (type default))
     (uuid a246db69-47c2-4e75-9306-2aa10031d213)
   )
-  (wire (pts (xy 31.75 26.67) (xy 31.75 34.29))
+  (wire (pts (xy 31.75 19.05) (xy 31.75 29.21))
     (stroke (width 0) (type default))
     (uuid a2cd2791-965e-49e6-af93-eb85fa1ba4ce)
   )
-  (wire (pts (xy 38.1 31.75) (xy 44.45 31.75))
+  (wire (pts (xy 36.83 24.13) (xy 43.18 24.13))
     (stroke (width 0) (type default))
     (uuid a37195f3-24b1-4a4d-97f2-98ed281a5952)
   )
@@ -2366,7 +2411,11 @@
     (stroke (width 0) (type default))
     (uuid b48b3ff2-f214-481c-8050-9015147e7cc0)
   )
-  (wire (pts (xy 69.85 31.75) (xy 64.77 31.75))
+  (wire (pts (xy 247.65 143.51) (xy 243.84 143.51))
+    (stroke (width 0) (type default))
+    (uuid b4ad54d5-69d4-4c4d-8ba2-036f62f7b228)
+  )
+  (wire (pts (xy 68.58 24.13) (xy 63.5 24.13))
     (stroke (width 0) (type default))
     (uuid b608add9-7444-4135-b5e6-4e7127b438d6)
   )
@@ -2378,7 +2427,7 @@
     (stroke (width 0) (type default))
     (uuid b8029ad1-753a-40f6-ae1e-b5d19f6e6f6b)
   )
-  (wire (pts (xy 49.53 34.29) (xy 49.53 33.02))
+  (wire (pts (xy 49.53 27.94) (xy 49.53 34.29))
     (stroke (width 0) (type default))
     (uuid b8d673e8-0067-4d2d-9347-bebaeb7e44d3)
   )
@@ -2418,7 +2467,7 @@
     (stroke (width 0) (type default))
     (uuid c56972f6-036f-4a8b-9f99-427e709173e7)
   )
-  (wire (pts (xy 44.45 26.67) (xy 49.53 26.67))
+  (wire (pts (xy 43.18 19.05) (xy 48.26 19.05))
     (stroke (width 0) (type default))
     (uuid c6c1148e-c88c-46e6-b103-4cae17374106)
   )
@@ -2426,7 +2475,7 @@
     (stroke (width 0) (type default))
     (uuid c8fa1988-916a-46d7-89d0-47cfacc9ed37)
   )
-  (wire (pts (xy 44.45 33.02) (xy 39.37 33.02))
+  (wire (pts (xy 44.45 27.94) (xy 39.37 27.94))
     (stroke (width 0) (type default))
     (uuid ca1c9711-b848-4840-a40d-61447111b5db)
   )
@@ -2474,7 +2523,7 @@
     (stroke (width 0) (type default))
     (uuid dec53717-8f51-4021-a03f-dc4f486a69a6)
   )
-  (wire (pts (xy 52.07 33.02) (xy 49.53 33.02))
+  (wire (pts (xy 52.07 27.94) (xy 49.53 27.94))
     (stroke (width 0) (type default))
     (uuid dff56f14-0c5b-4c99-9e5c-09e85d802b55)
   )
@@ -2482,7 +2531,7 @@
     (stroke (width 0) (type default))
     (uuid e026ee36-4270-416d-bc3d-baa355e2dcdd)
   )
-  (wire (pts (xy 46.99 33.02) (xy 49.53 33.02))
+  (wire (pts (xy 46.99 27.94) (xy 49.53 27.94))
     (stroke (width 0) (type default))
     (uuid e0e9c141-2633-4ef6-9de8-179023d068d5)
   )
@@ -2542,11 +2591,15 @@
     (stroke (width 0) (type default))
     (uuid f33c0e82-20a7-4d96-aa57-978955a25577)
   )
+  (wire (pts (xy 36.83 33.02) (xy 41.91 33.02))
+    (stroke (width 0) (type default))
+    (uuid f5c27275-5acb-4596-a3a8-1fe14f8b74d5)
+  )
   (wire (pts (xy 106.68 107.95) (xy 106.68 111.76))
     (stroke (width 0) (type default))
     (uuid f93e392f-f70c-4033-abb2-882dab07e136)
   )
-  (wire (pts (xy 55.88 26.67) (xy 64.77 26.67))
+  (wire (pts (xy 54.61 19.05) (xy 63.5 19.05))
     (stroke (width 0) (type default))
     (uuid f994ab4f-b731-4a7f-9f21-2ad664ab50ce)
   )
@@ -3036,42 +3089,6 @@
     )
   )
 
-  (symbol (lib_id "basic:R") (at 248.92 104.14 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 05b3f678-6b54-4eea-86ad-8b26d71e399b)
-    (property "Reference" "R18" (at 248.92 104.14 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100k" (at 249.3538 102.362 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 248.92 105.918 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 248.92 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 80056b95-f04b-4ba3-9153-053db9897648))
-    (pin "2" (uuid de859ab8-23b3-487c-9397-fcd7bfbfa55b))
-    (instances
-      (project "ECE 445 Round 5 PCB"
-        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "R18") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "R18") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "R18") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 53.34 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05e168f3-83c5-4f72-bbab-0e371bf8c232)
@@ -3089,7 +3106,7 @@
     )
     (pin "1" (uuid 6b4ab232-a2cc-42e4-931c-8ecded2e4f10))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR029") (unit 1)
         )
@@ -3107,25 +3124,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 64.77 29.21 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 63.5 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07dbe377-4308-4f97-b292-c03c4068c877)
-    (property "Reference" "C5" (at 67.31 27.9463 0)
+    (property "Reference" "C5" (at 66.04 20.3263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7uF" (at 67.31 30.4863 0)
+    (property "Value" "4.7uF" (at 66.04 22.8663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 64.77 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 63.5 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 64.77 29.21 0)
+    (property "Datasheet" "~" (at 63.5 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bf92e7f7-a8f1-4979-a1e6-63006cce2bbc))
     (pin "2" (uuid 2421aead-6669-43f1-84b4-ec313a79cf7c))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C5") (unit 1)
         )
@@ -3152,7 +3169,7 @@
     (pin "2" (uuid f78de6e5-3167-423d-b013-452e9887b886))
     (pin "3" (uuid 6dec7c5e-615c-4286-8d29-02ba4915fb89))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J15") (unit 1)
         )
@@ -3187,7 +3204,7 @@
     )
     (pin "1" (uuid 58433781-8040-45de-909d-c1137d55c670))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR035") (unit 1)
         )
@@ -3217,7 +3234,7 @@
     )
     (pin "1" (uuid 2e746a27-d81d-415d-8a72-dba576b49080))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR038") (unit 1)
         )
@@ -3263,7 +3280,7 @@
     (pin "2" (uuid 4c0bbfd7-040f-4e9b-974e-059e7c43c62d))
     (pin "1" (uuid 2c783f3b-33f9-4e9b-a658-58cddecdb12a))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q11") (unit 1)
         )
@@ -3293,7 +3310,7 @@
     )
     (pin "1" (uuid 8d70d8d0-4eba-4376-8b41-f528a877b005))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR044") (unit 1)
         )
@@ -3334,7 +3351,7 @@
     (pin "2" (uuid 93b50c89-2603-47c0-a2ba-5bdac24686dd))
     (pin "1" (uuid be11efa4-4f6e-479b-9f11-d97d29407eab))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q5") (unit 1)
         )
@@ -3375,7 +3392,7 @@
     (pin "2" (uuid 73b8f460-fdc4-4723-9d14-3aa56643d51f))
     (pin "1" (uuid 5e3f01ea-0f4c-4e2a-b0a4-9285e69eb1fb))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q2") (unit 1)
         )
@@ -3416,7 +3433,7 @@
     (pin "3" (uuid 69fef77b-7709-45a5-a6a5-94ace2aac3eb))
     (pin "5" (uuid 75cb0d22-a9be-404a-b7d5-bddb621cf244))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J11") (unit 1)
         )
@@ -3451,7 +3468,7 @@
     )
     (pin "1" (uuid 1d66c29a-a562-440b-a2b1-f5fb28c70af1))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR076") (unit 1)
         )
@@ -3497,7 +3514,7 @@
     (pin "2" (uuid b85f876e-21bd-486f-ab8d-ba6394abef96))
     (pin "1" (uuid 518b7b6f-8a78-4c66-bcca-a2e10032024b))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q6") (unit 1)
         )
@@ -3505,6 +3522,32 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "Q6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 152.4 27.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1c8f7d7d-53c0-4da6-8d14-8659d37f8111)
+    (property "Reference" "R9" (at 154.94 26.67 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 154.94 29.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 150.622 27.94 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 152.4 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 43c1abb9-47c3-4b25-be30-c0b573c5598e))
+    (pin "2" (uuid e4974164-868c-45e4-8fc6-5a6fecc31de2))
+    (instances
+      (project "ECE 445 Round 5 PCB (1)"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3527,7 +3570,7 @@
     )
     (pin "1" (uuid 365f4bb8-d2fc-4464-8ca2-1a3c3d96546c))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR09") (unit 1)
         )
@@ -3540,42 +3583,6 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "#PWR09") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "basic:R") (at 248.92 95.25 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1f8f7619-2faa-425f-871d-abc44fb3e6f9)
-    (property "Reference" "R19" (at 248.92 95.25 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100k" (at 249.3538 93.472 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 248.92 97.028 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 248.92 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 04f6880d-9f8e-4622-9052-4d04528a063e))
-    (pin "2" (uuid a48581dc-c7c2-48f2-8f85-1b981bf24691))
-    (instances
-      (project "ECE 445 Round 5 PCB"
-        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "R19") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "R19") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "R19") (unit 1)
         )
       )
     )
@@ -3598,7 +3605,7 @@
     )
     (pin "1" (uuid eca800b1-a349-49e4-8ac3-12e2ed6b9ae1))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR030") (unit 1)
         )
@@ -3630,7 +3637,7 @@
     (pin "2" (uuid 3f64893b-1fb0-4918-b8f9-973d009b168a))
     (pin "3" (uuid 7d524b4c-8a4d-41c1-9833-5129bc73246a))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J19") (unit 1)
         )
@@ -3648,13 +3655,13 @@
     )
   )
 
-  (symbol (lib_id "basic:C") (at 152.4 39.37 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 152.4 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 23e3544e-8daf-4365-9b5b-d3486818106f)
-    (property "Reference" "C18" (at 155.321 39.8038 0)
+    (uuid 23226301-1663-478f-9f8c-2a176aa0d6a1)
+    (property "Reference" "C18" (at 156.21 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u" (at 153.035 41.91 0)
+    (property "Value" "1uF" (at 156.21 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 153.3652 43.18 0)
@@ -3663,84 +3670,64 @@
     (property "Datasheet" "~" (at 152.4 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 858428d5-909c-4575-84ae-71c2a3f3c690))
-    (pin "2" (uuid 9c23891d-a218-4d10-94da-bb8d4862debf))
+    (pin "2" (uuid 31e58486-d621-47fe-bfc5-a9f5c8cd3495))
+    (pin "1" (uuid 67a0d981-c6a1-4f27-a759-5db8f011160a))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "C18") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "C18") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "C18") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 55.88 29.21 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 29.21 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 26a02cbc-3b4a-4bcd-b4aa-38f5fd6a7666)
-    (property "Reference" "C4" (at 58.42 27.9463 0)
+    (uuid 243615a8-97fc-4740-ab82-f07de77a1be3)
+    (property "Reference" "R10" (at 31.75 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 58.42 30.4863 0)
+    (property "Value" "10k" (at 31.75 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 55.88 29.21 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 27.432 177.8 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 55.88 29.21 0)
+    (property "Datasheet" "~" (at 29.21 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ad9991a7-2b76-46b0-8b60-05a4bf28a389))
+    (pin "2" (uuid dfb7fc0e-0695-4003-a0e8-d5a7301f375a))
+    (instances
+      (project "ECE 445 Round 5 PCB (1)"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "R10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 54.61 21.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 26a02cbc-3b4a-4bcd-b4aa-38f5fd6a7666)
+    (property "Reference" "C4" (at 57.15 20.3263 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 57.15 22.8663 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 54.61 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 54.61 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 1c71e77f-f000-4cc1-9665-7813aaf6adfc))
     (pin "1" (uuid 2858b421-3ad9-40b4-9efc-fb7444433342))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "basic:R") (at 53.34 179.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2cf99aeb-8dfe-44ee-8c0f-0e9b75b7c2a5)
-    (property "Reference" "R11" (at 53.34 179.07 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10k" (at 54.61 179.07 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 51.562 179.07 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 53.34 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d2ed3ee4-5b9e-4443-8092-8a63d1567fe0))
-    (pin "2" (uuid 722a5737-8eb1-40b3-a36c-46349d3749d9))
-    (instances
-      (project "ECE 445 Round 5 PCB"
-        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "R11") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "R11") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "R11") (unit 1)
         )
       )
     )
@@ -3764,7 +3751,7 @@
     (pin "1" (uuid 252d10d5-2a5a-4a49-89c1-fe35ef50dc4b))
     (pin "2" (uuid 99755d8f-21bf-458c-8cd2-a043e129881a))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "SW1") (unit 1)
         )
@@ -3782,25 +3769,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 49.53 29.21 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 48.26 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ea8e421-cd3e-40c9-95e1-ec0683f91618)
-    (property "Reference" "C3" (at 52.07 27.9463 0)
+    (property "Reference" "C3" (at 50.8 20.3263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 52.07 30.4863 0)
+    (property "Value" "100nF" (at 50.8 22.8663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 49.53 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 48.26 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 49.53 29.21 0)
+    (property "Datasheet" "~" (at 48.26 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 1c71e77f-f000-4cc1-9665-7813aaf6adfd))
     (pin "1" (uuid 2858b421-3ad9-40b4-9efc-fb7444433343))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C3") (unit 1)
         )
@@ -3836,7 +3823,7 @@
     (pin "2" (uuid f4adf80a-cda7-4c7e-93c9-77fe616a4238))
     (pin "1" (uuid 9b855136-0bec-4bed-bda1-c89fd9e546a9))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q9") (unit 1)
         )
@@ -3875,7 +3862,7 @@
     (pin "8" (uuid 41b0d6a0-d4b4-4e16-8667-12323427cbe0))
     (pin "9" (uuid 4461d84b-d3b9-4434-93ad-21d78f121038))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J20") (unit 1)
         )
@@ -3911,7 +3898,7 @@
     (pin "1" (uuid 232e3fe6-3353-4bd5-8e0f-dbb2799c69c8))
     (pin "2" (uuid b342963a-0a06-46ed-9db5-445b4a81e3c2))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "JP1") (unit 1)
         )
@@ -3924,6 +3911,31 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "JP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 36.83 33.02 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3b2836aa-d871-4f8f-8642-29af84038d80)
+    (property "Reference" "#FLG01" (at 34.925 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 33.02 33.02 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 36.83 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 36.83 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ad58b5f5-38d7-49c5-a360-2c637d7cf7ee))
+    (instances
+      (project "ECE 445 Round 5 PCB (1)"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -3946,7 +3958,7 @@
     )
     (pin "1" (uuid f243dbf8-603c-42b0-a77c-2aec3e38c8db))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR010") (unit 1)
         )
@@ -3981,7 +3993,7 @@
     )
     (pin "1" (uuid ef7e9bec-147a-4127-94bb-0e7718109333))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR037") (unit 1)
         )
@@ -3989,6 +4001,31 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "#PWR037") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 279.4 121.92 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 40a668a1-989e-4821-b691-3b9fb1ef06e7)
+    (property "Reference" "#FLG03" (at 279.4 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 279.4 116.84 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 279.4 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 279.4 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3234c5ef-d9a7-4bcd-83fd-02b6f870a278))
+    (instances
+      (project "ECE 445 Round 5 PCB (1)"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -4013,7 +4050,7 @@
     (pin "2" (uuid dace6c85-1976-4b2b-8559-46ff96bbff12))
     (pin "3" (uuid 55171b7f-33a9-4c0d-b283-527220707bb4))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J13") (unit 1)
         )
@@ -4048,7 +4085,7 @@
     )
     (pin "1" (uuid 5e32970c-11e0-4a44-a866-fab39edebc7d))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR013") (unit 1)
         )
@@ -4085,7 +4122,7 @@
     (pin "2" (uuid 7cf7555b-5669-4118-acc2-bce45a501531))
     (pin "3" (uuid 734ade1a-eafa-4623-b0d6-b80a5f7fa9a1))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J18") (unit 1)
         )
@@ -4120,7 +4157,7 @@
     )
     (pin "1" (uuid dc8fdfc3-b8fb-49f3-8c6b-297afaa1ad9d))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR032") (unit 1)
         )
@@ -4152,7 +4189,7 @@
     (pin "2" (uuid 5164fb6b-f2a7-4f6c-b61d-9a4039413639))
     (pin "3" (uuid 7418c649-61e4-4354-bf4a-462546c23fd1))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J6") (unit 1)
         )
@@ -4187,7 +4224,7 @@
     )
     (pin "1" (uuid 25ddc3f1-e94d-4af0-bc77-5ae21c09eefc))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR027") (unit 1)
         )
@@ -4222,7 +4259,7 @@
     )
     (pin "1" (uuid ab036f02-e9ce-4c12-9f7a-4bf43f96aee4))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR031") (unit 1)
         )
@@ -4257,7 +4294,7 @@
     )
     (pin "1" (uuid a226cccc-7901-4e14-9501-785c5eb9df8f))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR025") (unit 1)
         )
@@ -4292,7 +4329,7 @@
     )
     (pin "1" (uuid 1a0f5e2d-82bc-4655-a0ff-1ddac986b147))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR02") (unit 1)
         )
@@ -4328,7 +4365,7 @@
     (pin "2" (uuid df5eca3b-649b-459e-ac43-6d8e117a0392))
     (pin "1" (uuid 941efe48-c6d1-4d90-94ab-9a9ca2d9738c))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q10") (unit 1)
         )
@@ -4341,24 +4378,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 241.3 95.25 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 241.3 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6264335b-c9b6-4927-8ad3-1ac65e4accb0)
-    (property "Reference" "#PWR033" (at 241.3 99.06 0)
+    (property "Reference" "#PWR033" (at 241.3 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 241.3 90.17 0)
+    (property "Value" "+3.3V" (at 241.3 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 241.3 95.25 0)
+    (property "Footprint" "" (at 241.3 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 241.3 95.25 0)
+    (property "Datasheet" "" (at 241.3 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 12dd083d-c068-4a77-8f4a-d5470db4847e))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR033") (unit 1)
         )
@@ -4388,7 +4425,7 @@
     )
     (pin "1" (uuid e4ae5e12-7b4a-4f5e-b983-a0757ad04031))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR042") (unit 1)
         )
@@ -4420,9 +4457,34 @@
     (pin "2" (uuid 9b039f3e-f8ca-4f3a-930e-0d75b69ebe44))
     (pin "3" (uuid 87e5edd9-f2fc-45fa-922c-9318e5eeae05))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 262.89 43.18 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6b611bd7-ae0a-4d6d-a2ea-7ac6534ef69a)
+    (property "Reference" "#FLG04" (at 262.89 45.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 262.89 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 262.89 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 262.89 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 76a6e4bf-8ea7-4712-9baa-c040a3c9ddef))
+    (instances
+      (project "ECE 445 Round 5 PCB (1)"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -4456,7 +4518,7 @@
     (pin "3" (uuid fceda54a-620c-4acf-97e3-f36dd102be70))
     (pin "5" (uuid 1686a348-f47d-458d-a6e6-a7b0c9cf4c81))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J27") (unit 1)
         )
@@ -4492,7 +4554,7 @@
     (pin "1" (uuid 8f8deb59-2613-4820-be29-e14bc149b919))
     (pin "2" (uuid 296b43f5-266f-421c-a2ab-07cbfc1ca0ee))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C17") (unit 1)
         )
@@ -4510,73 +4572,52 @@
     )
   )
 
-  (symbol (lib_id "basic:R") (at 29.21 177.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 763ff5d7-51df-4123-9eba-41833c8b9d68)
-    (property "Reference" "R10" (at 29.21 177.8 90)
+  (symbol (lib_id "Device:R") (at 248.92 95.25 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 78aa7ccc-89d7-4ae0-bb0b-6c86cb8a1a0f)
+    (property "Reference" "R19" (at 248.92 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 24.13 177.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "100k" (at 248.92 91.44 90)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 27.432 177.8 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 248.92 97.028 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 29.21 177.8 0)
+    (property "Datasheet" "~" (at 248.92 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6bbf30ec-bfa0-4289-ac39-0ad56d818fb9))
-    (pin "2" (uuid c4e5fd88-d442-4efb-bb34-baa1b16a61bc))
+    (pin "2" (uuid dd28e0eb-c643-43bf-9b2c-df557d4d5ef6))
+    (pin "1" (uuid 0e38a327-faed-43c2-88d8-86f1e380e7fc))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "R10") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "R10") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "R10") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "basic:R") (at 152.4 27.94 0) (unit 1)
+  (symbol (lib_id "power:PWR_FLAG") (at 247.65 143.51 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7ae9a269-d632-457e-bde3-d5d8242021e8)
-    (property "Reference" "R9" (at 154.432 27.94 90)
-      (effects (font (size 1.27 1.27)))
+    (uuid 7be75c8e-45f0-451c-91cd-622fdeb19d4b)
+    (property "Reference" "#FLG02" (at 249.555 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "10k" (at 147.32 27.94 0)
+    (property "Value" "PWR_FLAG" (at 251.46 143.51 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 150.622 27.94 90)
+    (property "Footprint" "" (at 247.65 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 152.4 27.94 0)
+    (property "Datasheet" "~" (at 247.65 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7595a5f3-aa20-4894-95f5-01e9f279f158))
-    (pin "2" (uuid 124186bf-5620-4c38-ab5a-217d4671002b))
+    (pin "1" (uuid ac6708ab-ed5c-47da-afd6-30701d623061))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "R9") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "R9") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "R9") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -4599,7 +4640,7 @@
     )
     (pin "1" (uuid 31042171-85ff-42d2-a14e-16a9191cca0d))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR046") (unit 1)
         )
@@ -4629,7 +4670,7 @@
     )
     (pin "1" (uuid d84a2be5-4458-4995-a357-51bf3184958b))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR075") (unit 1)
         )
@@ -4664,7 +4705,7 @@
     )
     (pin "1" (uuid 849918b2-6cdf-4ddf-81da-9180a0f3fccd))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR01") (unit 1)
         )
@@ -4691,7 +4732,7 @@
     (pin "2" (uuid 927270e2-3bb2-4684-b664-14cbd4b787ed))
     (pin "3" (uuid fe5c1e2b-6f9a-4e08-9f7e-a20c2bdae335))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J5") (unit 1)
         )
@@ -4737,7 +4778,7 @@
     (pin "2" (uuid 7d9aac8b-1b9f-4ee8-b91d-5a2c74b1b7f0))
     (pin "1" (uuid 8f7d7447-0df0-40d6-82e1-4908dd9f25ee))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q7") (unit 1)
         )
@@ -4767,7 +4808,7 @@
     )
     (pin "1" (uuid dbe3f4d5-0463-4a4b-a25f-1017b6194428))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR012") (unit 1)
         )
@@ -4813,7 +4854,7 @@
     (pin "2" (uuid 36987ce0-d011-4260-8ae8-04b6ba2d892e))
     (pin "1" (uuid 3158f262-ed77-48d6-8e52-9a4bfd96d428))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q1") (unit 1)
         )
@@ -4845,7 +4886,7 @@
     (pin "3" (uuid 0c409ba5-a7e8-4c5b-a50b-9cfa1440c60d))
     (pin "2" (uuid f375155c-dae2-4420-9b5c-d67524d28313))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J2") (unit 1)
         )
@@ -4870,7 +4911,7 @@
     )
     (pin "1" (uuid 9b6df516-fa65-4aa2-9af1-9622d482cc56))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR047") (unit 1)
         )
@@ -4963,7 +5004,7 @@
     (pin "50" (uuid f07ac093-b1e1-4872-ba12-ff59f5850fe9))
     (pin "56" (uuid c90b470c-c9dd-494a-ba43-3ffa176aaf89))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "U1") (unit 1)
         )
@@ -4998,45 +5039,9 @@
     )
     (pin "1" (uuid 69d747f5-14c4-43ad-8392-06a3cf6711dd))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "basic:R") (at 248.92 113.03 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a16350b0-1c9e-4c86-9985-bbe879066843)
-    (property "Reference" "R17" (at 248.92 113.03 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100k" (at 249.3538 111.252 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 248.92 114.808 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 248.92 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2cb14477-aa88-438d-ba97-90e1da4cbf7d))
-    (pin "2" (uuid 4eff5ff3-6648-4164-bf32-dd732033c015))
-    (instances
-      (project "ECE 445 Round 5 PCB"
-        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "R17") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "R17") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "R17") (unit 1)
         )
       )
     )
@@ -5061,7 +5066,7 @@
     (pin "2" (uuid 1caf2a41-f371-42b2-8715-0bd6e5e37e0d))
     (pin "3" (uuid 0e54e822-c0e7-4fcc-8295-2f02eabac8c1))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J12") (unit 1)
         )
@@ -5096,7 +5101,7 @@
     )
     (pin "1" (uuid 20328ab3-1a4f-4451-98c8-c84ec73b99e2))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR026") (unit 1)
         )
@@ -5131,7 +5136,7 @@
     )
     (pin "1" (uuid 6b8869ef-3b02-47f3-a719-4cc26a4285d3))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR04") (unit 1)
         )
@@ -5167,7 +5172,7 @@
     (pin "2" (uuid c130d400-abf0-479b-9001-c60937633ca3))
     (pin "1" (uuid 63403a69-975b-4796-8b81-bc84ed1132ba))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q3") (unit 1)
         )
@@ -5199,7 +5204,7 @@
     (pin "2" (uuid 630166c0-9d58-4e3d-9e8f-8162a9763b48))
     (pin "3" (uuid 37121188-affb-4701-8a8f-bfcd3653307c))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J17") (unit 1)
         )
@@ -5234,7 +5239,7 @@
     )
     (pin "1" (uuid b91b4f3e-09cd-495a-94bf-ce175eacde3b))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR043") (unit 1)
         )
@@ -5242,6 +5247,32 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "#PWR043") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 248.92 113.03 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b8dd7a06-a5eb-4e02-b2e7-a92d9bd8ac4a)
+    (property "Reference" "R17" (at 248.92 107.95 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k" (at 248.92 110.49 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 248.92 114.808 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 248.92 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid e03e6816-eb52-4e45-b32d-c2a1a0cc78e3))
+    (pin "1" (uuid ef2b3678-e955-4d3c-85de-3250694186cd))
+    (instances
+      (project "ECE 445 Round 5 PCB (1)"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -5266,7 +5297,7 @@
     (pin "2" (uuid 7eecf3f0-dbce-473e-81ac-b7a85fca2023))
     (pin "3" (uuid 46802f19-34d0-477f-ba58-328ae5c6648d))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J9") (unit 1)
         )
@@ -5284,25 +5315,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 38.1 29.21 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 36.83 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc92e1b7-7ae9-4d89-a10d-6c09bc52a445)
-    (property "Reference" "C1" (at 40.64 27.9463 0)
+    (property "Reference" "C1" (at 39.37 20.3263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 40.64 30.4863 0)
+    (property "Value" "100nF" (at 39.37 22.8663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 38.1 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 36.83 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 38.1 29.21 0)
+    (property "Datasheet" "~" (at 36.83 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 1c71e77f-f000-4cc1-9665-7813aaf6adfe))
     (pin "1" (uuid 2858b421-3ad9-40b4-9efc-fb7444433344))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C1") (unit 1)
         )
@@ -5329,7 +5360,7 @@
     (pin "3" (uuid 666ecfbe-0d24-46eb-b126-57008089f1ad))
     (pin "2" (uuid 945d6fb2-d825-426e-9ab1-f94258fc0423))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J8") (unit 1)
         )
@@ -5356,7 +5387,7 @@
     (pin "1" (uuid 0c076059-559c-4aa4-8c73-c4abe8feb6bb))
     (pin "3" (uuid de5b49b0-10e1-4e17-b65f-6b8074704bfe))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J3") (unit 1)
         )
@@ -5369,6 +5400,32 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 248.92 104.14 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bf42f32e-ff20-49f4-8ff6-e22ad52c6165)
+    (property "Reference" "R18" (at 248.92 99.06 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k" (at 248.92 101.6 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 248.92 105.918 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 248.92 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid a35a0a00-852c-4dc6-bbb3-7b5016ccb36b))
+    (pin "1" (uuid 7b3f4389-b1ae-468a-b847-4481a1bf3ca6))
+    (instances
+      (project "ECE 445 Round 5 PCB (1)"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -5402,7 +5459,7 @@
     (pin "3" (uuid 6819cf05-0e45-4109-8a43-e59a8aef2708))
     (pin "5" (uuid 16a557ac-d625-4dd5-9f3f-a079d31c48eb))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J28") (unit 1)
         )
@@ -5437,7 +5494,7 @@
     )
     (pin "1" (uuid 7042db01-f9de-4656-82b6-667d4ddfd7bd))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR039") (unit 1)
         )
@@ -5478,7 +5535,7 @@
     (pin "2" (uuid 5923937b-1b72-455e-afe5-c1559d07a2c4))
     (pin "1" (uuid f171401c-b628-4e6f-abae-5889f8ca2d61))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q8") (unit 1)
         )
@@ -5508,7 +5565,7 @@
     )
     (pin "1" (uuid 05daacdf-3005-475a-925b-a42badadab8d))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR011") (unit 1)
         )
@@ -5543,7 +5600,7 @@
     )
     (pin "1" (uuid c61fe83f-33ad-4886-9216-4d53843f4448))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR036") (unit 1)
         )
@@ -5578,7 +5635,7 @@
     )
     (pin "1" (uuid ce0461d4-bf68-4f8c-8196-cc1da0a82100))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR045") (unit 1)
         )
@@ -5608,7 +5665,7 @@
     )
     (pin "1" (uuid 049778b2-c80f-43a9-9949-8087e7ad7229))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR049") (unit 1)
         )
@@ -5638,7 +5695,7 @@
     )
     (pin "1" (uuid 0730ceaa-62c1-4e52-b762-32dcc693f0f9))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR041") (unit 1)
         )
@@ -5668,7 +5725,7 @@
     )
     (pin "1" (uuid 7a323dab-117d-4a87-a8a9-d7cd997ba86f))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR050") (unit 1)
         )
@@ -5709,7 +5766,7 @@
     (pin "2" (uuid d3acb0e9-a93b-4414-aeb5-e08f8577b851))
     (pin "1" (uuid 9ec8395e-d1f6-4c2f-ab93-222dae780776))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q12") (unit 1)
         )
@@ -5744,7 +5801,7 @@
     (pin "5" (uuid f2a8cfaa-1fd1-4d73-9182-6d4114b67d72))
     (pin "6" (uuid 2aaa5853-7e6e-44ff-a3d2-721da33706a3))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J7") (unit 1)
         )
@@ -5781,7 +5838,7 @@
     (pin "2" (uuid 0b1d394b-6383-4cd4-b97b-36e3faa07ab3))
     (pin "3" (uuid c3a00f2d-3560-48b8-8681-0b5d2350ae29))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J4") (unit 1)
         )
@@ -5799,25 +5856,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 44.45 29.21 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 43.18 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db8f76e2-1b9d-443b-8ea9-dcc56dfcd719)
-    (property "Reference" "C2" (at 46.99 27.9463 0)
+    (property "Reference" "C2" (at 45.72 20.3263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 46.99 30.48 0)
+    (property "Value" "100nF" (at 45.72 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 44.45 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 43.18 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 44.45 29.21 0)
+    (property "Datasheet" "~" (at 43.18 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 1c71e77f-f000-4cc1-9665-7813aaf6adff))
     (pin "1" (uuid 2858b421-3ad9-40b4-9efc-fb7444433345))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C2") (unit 1)
         )
@@ -5842,7 +5899,7 @@
     )
     (pin "1" (uuid acc0aeb8-8a9b-4af0-b50f-1e43d03c6881))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR028") (unit 1)
         )
@@ -5888,7 +5945,7 @@
     (pin "3" (uuid 265e9b64-925d-4895-9a1f-fbc79b27bc5d))
     (pin "5" (uuid 88c8490b-bc17-4bd3-986e-bfdf2e2160fb))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J1") (unit 1)
         )
@@ -5923,7 +5980,7 @@
     )
     (pin "1" (uuid 54fc201b-76dd-471e-ac9f-240a3abfc9f1))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR048") (unit 1)
         )
@@ -5953,7 +6010,7 @@
     )
     (pin "1" (uuid 1135ff91-5dde-48ab-9d12-0837491fa73b))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR019") (unit 1)
         )
@@ -5990,7 +6047,7 @@
     (pin "2" (uuid f8a93030-5931-4386-a9a8-59930940d332))
     (pin "3" (uuid 1d77e81a-c726-4941-833a-eaebfd4f0079))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J16") (unit 1)
         )
@@ -6003,6 +6060,32 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "J16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 53.34 179.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f424f1cf-e6c7-404f-8f45-8f72cbf9dccd)
+    (property "Reference" "R11" (at 53.34 180.34 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 55.88 180.34 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 51.562 179.07 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 53.34 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid f92a89ed-61ca-4d35-891e-36c23154e453))
+    (pin "1" (uuid c22ee5e1-db27-4db9-8074-bf75670828ae))
+    (instances
+      (project "ECE 445 Round 5 PCB (1)"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -6025,7 +6108,7 @@
     )
     (pin "1" (uuid e3bc5652-303a-447e-9dc5-13ffc8291303))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR040") (unit 1)
         )
@@ -6057,7 +6140,7 @@
     (pin "2" (uuid e0c194fd-149b-4b1c-b47e-cafa4af2a8f3))
     (pin "3" (uuid 7c81556c-0801-4f07-853a-86fb0e3c128c))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J14") (unit 1)
         )
@@ -6103,7 +6186,7 @@
     (pin "2" (uuid 6de960fd-6e82-4e44-a6e6-045985451268))
     (pin "1" (uuid 95628bf0-47c3-4276-93f6-1c5fbd7fcd15))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q4") (unit 1)
         )
@@ -6135,7 +6218,7 @@
     (pin "1" (uuid 5b7d1ada-c560-4d31-9ee1-f4e7fcfa1b22))
     (pin "3" (uuid 83eeced5-28eb-45e1-8e85-4edae785c904))
     (instances
-      (project "ECE 445 Round 5 PCB"
+      (project "ECE 445 Round 5 PCB (1)"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J21") (unit 1)
         )
