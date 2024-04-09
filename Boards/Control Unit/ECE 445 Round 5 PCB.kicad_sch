@@ -1664,8 +1664,8 @@
     )
   )
 
-  (junction (at 173.99 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 03d45c00-f738-4c88-a9ae-9153a880ae9c)
+  (junction (at 172.72 24.13) (diameter 0) (color 0 0 0 0)
+    (uuid 01a5d2ad-0bdb-49bc-9390-b26b403890f5)
   )
   (junction (at 243.84 127) (diameter 0) (color 0 0 0 0)
     (uuid 05214d9d-bcc9-419e-972c-591b76e22dde)
@@ -1673,23 +1673,14 @@
   (junction (at 53.34 172.72) (diameter 0) (color 0 0 0 0)
     (uuid 05b0a1b3-2997-4ae9-9de5-81762d0e5c77)
   )
-  (junction (at 200.66 157.48) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 08680e98-133f-4fff-87d6-8171fda862c4)
-  )
-  (junction (at 166.37 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 08fd5355-b50f-40af-94d1-b1029e34eb39)
-  )
-  (junction (at 173.99 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid 0b3682a4-16c8-45d7-86ed-111bd7dad11c)
   )
   (junction (at 44.45 125.73) (diameter 0) (color 0 0 0 0)
     (uuid 0c369701-bd42-489a-8657-3ea3819666da)
   )
   (junction (at 49.53 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 0c5fb78c-060d-4479-b3f1-c3937487a5f1)
-  )
-  (junction (at 189.23 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 0cc50fb3-94c9-4eac-b167-d755b25c2bd8)
   )
   (junction (at 265.43 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 1047d5d1-dbec-4d65-aeea-054892d92a91)
@@ -1700,26 +1691,11 @@
   (junction (at 262.89 104.14) (diameter 0) (color 0 0 0 0)
     (uuid 172b423a-25fc-4d99-a0a0-b6ad65bc508b)
   )
-  (junction (at 184.15 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 1901437d-a5f1-4171-afad-0e3f67164fb6)
-  )
   (junction (at 279.4 127) (diameter 0) (color 0 0 0 0)
     (uuid 19c3424b-df83-46c1-86e5-3ffc3f6ff196)
   )
-  (junction (at 179.07 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 1b06bc15-4139-42c4-a4ff-c388a0cd959c)
-  )
-  (junction (at 200.66 139.7) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 1d2ec218-7476-4666-ba1c-c983b3ff7870)
-  )
-  (junction (at 167.64 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid 1f2ada9c-25a2-4be4-a76a-9cadd2de5350)
-  )
-  (junction (at 184.15 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid 226a0a40-043d-4c8b-8081-8c4872139c8f)
-  )
-  (junction (at 176.53 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid 22d32ac1-25b5-464a-ac78-4f741970105e)
   )
   (junction (at 152.4 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 239f4eb7-005d-4d80-9eeb-914a57484366)
@@ -1729,6 +1705,9 @@
   )
   (junction (at 280.67 127) (diameter 0) (color 0 0 0 0)
     (uuid 30075b45-9a8a-4c12-98ce-e0999bb21141)
+  )
+  (junction (at 172.72 50.8) (diameter 0) (color 0 0 0 0)
+    (uuid 32537f81-8801-4467-a7d7-c5360db51565)
   )
   (junction (at 124.46 177.8) (diameter 0) (color 0 0 0 0)
     (uuid 3fe8218a-2d0b-4805-9248-6977b02eac9f)
@@ -1745,35 +1724,14 @@
   (junction (at 241.3 113.03) (diameter 0) (color 0 0 0 0)
     (uuid 4b41b71d-e066-48b8-8bfe-740ef54295d3)
   )
-  (junction (at 186.69 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 50bc8136-33c2-43b6-86fe-dd999771bac7)
-  )
   (junction (at 29.21 172.72) (diameter 0) (color 0 0 0 0)
     (uuid 5124ec43-149f-4f6e-a8a8-1332d794ee5d)
   )
-  (junction (at 190.5 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid 5474698a-dafd-458f-80d4-9422842a5230)
-  )
-  (junction (at 187.96 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid 563922b5-9a8e-4b3e-b558-a368a43eac20)
-  )
-  (junction (at 181.61 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 56974a18-8e62-4183-a859-eef7a114a896)
-  )
-  (junction (at 189.23 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid 623af25c-f265-429e-a38f-76ce98d60be9)
-  )
-  (junction (at 166.37 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid 68b5823d-2d00-47ef-93b6-4788ccba7bfb)
-  )
-  (junction (at 200.66 149.86) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 97.79) (diameter 0) (color 0 0 0 0)
     (uuid 6d076ab3-a9ad-44c3-b7c4-c626e7dd1792)
   )
   (junction (at 146.05 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 6ead0757-2f6e-4936-9928-b53f2a1c407e)
-  )
-  (junction (at 177.8 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid 6efc1327-5570-4049-9473-a86d62114a25)
   )
   (junction (at 265.43 27.94) (diameter 0) (color 0 0 0 0)
     (uuid 6fcf601c-2cf6-4d68-a239-ace7d72bf7c3)
@@ -1781,22 +1739,13 @@
   (junction (at 92.71 177.8) (diameter 0) (color 0 0 0 0)
     (uuid 7a259270-d271-42cf-927c-3c98848c8bc0)
   )
-  (junction (at 176.53 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 81f5d034-a5fd-4406-aa60-4c4a93f833cd)
-  )
   (junction (at 48.26 24.13) (diameter 0) (color 0 0 0 0)
     (uuid 82735bce-50e9-4f9e-b1fa-80479dc40dc6)
   )
-  (junction (at 200.66 147.32) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 834c976f-ae23-47b9-8e7d-5fce1637afab)
   )
-  (junction (at 191.77 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 84e52193-576b-43d7-8d5b-0c698a9cce47)
-  )
-  (junction (at 180.34 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid 88ce8534-236d-429b-912f-043f1c6baec3)
-  )
-  (junction (at 200.66 134.62) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 8cc88bf0-ff44-438c-b967-ac9ea01e318c)
   )
   (junction (at 241.3 95.25) (diameter 0) (color 0 0 0 0)
@@ -1811,7 +1760,7 @@
   (junction (at 262.89 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 9a9219c1-f59d-47d8-8d36-0bc1b851a176)
   )
-  (junction (at 200.66 132.08) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 80.01) (diameter 0) (color 0 0 0 0)
     (uuid 9afeca6b-ef71-4e19-a144-7b239de9a94a)
   )
   (junction (at 36.83 19.05) (diameter 0) (color 0 0 0 0)
@@ -1826,17 +1775,11 @@
   (junction (at 33.02 182.88) (diameter 0) (color 0 0 0 0)
     (uuid a15afb67-e57e-4f39-98bb-ec0231e75643)
   )
-  (junction (at 172.72 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid a58d63a1-2eb1-406b-a5e2-6f6e29cf947d)
-  )
-  (junction (at 200.66 144.78) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 92.71) (diameter 0) (color 0 0 0 0)
     (uuid a6a877c4-d480-4e37-a351-e48c20d76035)
   )
-  (junction (at 200.66 152.4) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 100.33) (diameter 0) (color 0 0 0 0)
     (uuid a7a3aebe-534b-4678-b076-32ed3038b6da)
-  )
-  (junction (at 168.91 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid a80e85ab-4745-48ff-b0aa-533c466a168e)
   )
   (junction (at 48.26 19.05) (diameter 0) (color 0 0 0 0)
     (uuid a9264d24-0cd7-43ea-91f9-e34a8ba00be0)
@@ -1847,26 +1790,14 @@
   (junction (at 241.3 104.14) (diameter 0) (color 0 0 0 0)
     (uuid adbebb9d-272a-40ef-9b09-240b57fcceba)
   )
-  (junction (at 200.66 137.16) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 85.09) (diameter 0) (color 0 0 0 0)
     (uuid b0a01ef8-5a7b-472a-849b-f2576e242542)
   )
-  (junction (at 165.1 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid b65e2792-9230-4646-bcf4-2b58eb4a8f91)
-  )
-  (junction (at 200.66 142.24) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 90.17) (diameter 0) (color 0 0 0 0)
     (uuid b7b48d61-c15c-4913-b792-3639b3148862)
-  )
-  (junction (at 168.91 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid b98f1cb3-52a5-4ccf-bd23-84243d37454e)
-  )
-  (junction (at 182.88 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid c5774c15-6107-48b6-8aa5-623e4a6817c2)
   )
   (junction (at 63.5 24.13) (diameter 0) (color 0 0 0 0)
     (uuid c6e9a9d2-ff35-4e0d-916b-c133108c6204)
-  )
-  (junction (at 181.61 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid cba3c865-f55e-40d0-af01-284fe63f205b)
   )
   (junction (at 265.43 43.18) (diameter 0) (color 0 0 0 0)
     (uuid ce9e98c4-a258-4032-abab-b1143bede4c6)
@@ -1877,44 +1808,20 @@
   (junction (at 46.99 27.94) (diameter 0) (color 0 0 0 0)
     (uuid d3b2cc66-751e-4518-aa0e-ee81f2972ad4)
   )
-  (junction (at 171.45 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid d843fe06-6c28-4989-a35f-bc3da5d46007)
-  )
   (junction (at 265.43 53.34) (diameter 0) (color 0 0 0 0)
     (uuid daaf854b-2394-46b4-b65a-ccd33a02c44e)
   )
-  (junction (at 186.69 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid e26d0204-37f8-41f8-8279-515a7d6151c5)
-  )
-  (junction (at 170.18 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid e52e3b46-770b-416f-a83f-18767dca5c33)
-  )
-  (junction (at 200.66 154.94) (diameter 0) (color 0 0 0 0)
+  (junction (at 220.98 102.87) (diameter 0) (color 0 0 0 0)
     (uuid e537e6ae-155a-468f-8c8f-4c17f49b8f95)
   )
   (junction (at 31.75 29.21) (diameter 0) (color 0 0 0 0)
     (uuid ed541a4e-8b6b-4d88-889a-9e8b0b1e90ab)
-  )
-  (junction (at 171.45 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid ef5166b2-aebe-4ce0-96fc-5360d6702a61)
-  )
-  (junction (at 175.26 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid f317c0db-c9e0-46b2-813c-b14ea0000470)
-  )
-  (junction (at 179.07 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid f4e9937b-34ad-42dd-8fcf-65b24900d5cc)
-  )
-  (junction (at 163.83 113.03) (diameter 0) (color 0 0 0 0)
-    (uuid f6813c11-57b3-4096-8891-a5b8091ac2b8)
   )
   (junction (at 265.43 30.48) (diameter 0) (color 0 0 0 0)
     (uuid f6e2ccd6-a333-490a-9d7f-027e0c371e2d)
   )
   (junction (at 41.91 33.02) (diameter 0) (color 0 0 0 0)
     (uuid fa8a812b-5211-4393-b04d-b7f18be16a23)
-  )
-  (junction (at 185.42 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid fbe2a6ed-1344-4fcf-81e4-cf02a87e8439)
   )
 
   (no_connect (at 62.23 118.11) (uuid 0d5df78d-6eaa-46d3-bb6b-a8aa462c5bfd))
@@ -1951,6 +1858,10 @@
     (stroke (width 0) (type default))
     (uuid 05e5b84b-1aea-49a8-aa91-da8b22f52362)
   )
+  (wire (pts (xy 170.18 50.8) (xy 172.72 50.8))
+    (stroke (width 0) (type default))
+    (uuid 064e4542-2983-4236-90a6-45d9b6128cb0)
+  )
   (wire (pts (xy 105.41 124.46) (xy 105.41 128.27))
     (stroke (width 0) (type default))
     (uuid 085c2cf0-c6b2-42d0-a999-28cc540095b0)
@@ -1958,10 +1869,6 @@
   (wire (pts (xy 262.89 27.94) (xy 265.43 27.94))
     (stroke (width 0) (type default))
     (uuid 09773e01-542b-41eb-9c1a-39b3d1b15dca)
-  )
-  (wire (pts (xy 166.37 113.03) (xy 168.91 113.03))
-    (stroke (width 0) (type default))
-    (uuid 0b4dcbb6-5c01-4167-95d1-007490e52a0d)
   )
   (wire (pts (xy 29.21 181.61) (xy 29.21 182.88))
     (stroke (width 0) (type default))
@@ -1979,17 +1886,9 @@
     (stroke (width 0) (type default))
     (uuid 1110b88d-7d8a-4be5-bcf4-5b849f030bf9)
   )
-  (wire (pts (xy 171.45 113.03) (xy 173.99 113.03))
-    (stroke (width 0) (type default))
-    (uuid 11d8ea07-9154-4d97-ac71-aa43c9151bd8)
-  )
   (wire (pts (xy 68.58 29.21) (xy 69.85 29.21))
     (stroke (width 0) (type default))
     (uuid 124372bc-2b5f-4f84-b9b7-a2265eaa4a30)
-  )
-  (wire (pts (xy 179.07 57.15) (xy 181.61 57.15))
-    (stroke (width 0) (type default))
-    (uuid 12da5e80-ecb8-4fcc-847c-6b654ce21020)
   )
   (wire (pts (xy 146.05 46.99) (xy 146.05 48.26))
     (stroke (width 0) (type default))
@@ -2010,10 +1909,6 @@
   (wire (pts (xy 29.21 182.88) (xy 33.02 182.88))
     (stroke (width 0) (type default))
     (uuid 1810bdca-7dfc-4e5d-a0aa-98ba32bed467)
-  )
-  (wire (pts (xy 186.69 57.15) (xy 189.23 57.15))
-    (stroke (width 0) (type default))
-    (uuid 18cd09a9-8b13-4f4c-b1eb-9ebe5b349975)
   )
   (wire (pts (xy 243.84 127) (xy 247.65 127))
     (stroke (width 0) (type default))
@@ -2071,10 +1966,6 @@
     (stroke (width 0) (type default))
     (uuid 33ac0776-7e85-4a69-9582-10ee8c194dac)
   )
-  (wire (pts (xy 168.91 113.03) (xy 171.45 113.03))
-    (stroke (width 0) (type default))
-    (uuid 35ed533f-0d38-48cd-85f8-d14c13a8923e)
-  )
   (wire (pts (xy 46.99 27.94) (xy 44.45 27.94))
     (stroke (width 0) (type default))
     (uuid 382c7d2c-57e8-4c38-8aee-5d24279c20df)
@@ -2086,6 +1977,10 @@
   (wire (pts (xy 152.4 43.18) (xy 152.4 46.99))
     (stroke (width 0) (type default))
     (uuid 3b321847-2947-4bd2-9400-faa7d5926831)
+  )
+  (wire (pts (xy 172.72 50.8) (xy 175.26 50.8))
+    (stroke (width 0) (type default))
+    (uuid 3bd3bc86-5ff9-4233-bf74-138505d45075)
   )
   (wire (pts (xy 127 140.97) (xy 127 144.78))
     (stroke (width 0) (type default))
@@ -2103,10 +1998,6 @@
     (stroke (width 0) (type default))
     (uuid 447217fa-e3c7-4d46-9bcb-79cf7728d1f8)
   )
-  (wire (pts (xy 182.88 20.32) (xy 185.42 20.32))
-    (stroke (width 0) (type default))
-    (uuid 46a52784-f597-45f2-9fd6-a697520b748d)
-  )
   (wire (pts (xy 278.13 127) (xy 279.4 127))
     (stroke (width 0) (type default))
     (uuid 470bc84c-62d1-42e2-b578-ca0637d0b114)
@@ -2114,14 +2005,6 @@
   (wire (pts (xy 262.89 114.3) (xy 262.89 104.14))
     (stroke (width 0) (type default))
     (uuid 49239659-bed8-4ab8-a231-d234a46f0f2f)
-  )
-  (wire (pts (xy 185.42 20.32) (xy 187.96 20.32))
-    (stroke (width 0) (type default))
-    (uuid 4ef7bc7c-1878-456b-a942-2f272877ee6f)
-  )
-  (wire (pts (xy 173.99 57.15) (xy 176.53 57.15))
-    (stroke (width 0) (type default))
-    (uuid 5044cef3-b11e-463a-adba-8ad23436b86c)
   )
   (wire (pts (xy 278.13 129.54) (xy 280.67 129.54))
     (stroke (width 0) (type default))
@@ -2142,10 +2025,6 @@
   (wire (pts (xy 48.26 175.26) (xy 45.72 175.26))
     (stroke (width 0) (type default))
     (uuid 56212c08-6498-4eb7-b2ab-6d87fa3b0d35)
-  )
-  (wire (pts (xy 186.69 113.03) (xy 189.23 113.03))
-    (stroke (width 0) (type default))
-    (uuid 57d38edd-7511-4b84-b676-05d23a825cdf)
   )
   (wire (pts (xy 105.41 140.97) (xy 105.41 144.78))
     (stroke (width 0) (type default))
@@ -2171,7 +2050,7 @@
     (stroke (width 0) (type default))
     (uuid 614b8ec1-9c41-4806-9646-e061937909f8)
   )
-  (wire (pts (xy 200.66 144.78) (xy 200.66 142.24))
+  (wire (pts (xy 220.98 92.71) (xy 220.98 90.17))
     (stroke (width 0) (type default))
     (uuid 630b45a8-aafc-409e-87f1-3be3ed06f2d3)
   )
@@ -2231,14 +2110,6 @@
     (stroke (width 0) (type default))
     (uuid 7694e042-cb69-4c63-80e9-c5e41509b9f4)
   )
-  (wire (pts (xy 166.37 57.15) (xy 168.91 57.15))
-    (stroke (width 0) (type default))
-    (uuid 76beeab6-e1e4-4341-bb32-013f798897ce)
-  )
-  (wire (pts (xy 189.23 113.03) (xy 191.77 113.03))
-    (stroke (width 0) (type default))
-    (uuid 7701a30f-92b1-4ca5-8d32-23b0e2dc9878)
-  )
   (wire (pts (xy 265.43 53.34) (xy 265.43 55.88))
     (stroke (width 0) (type default))
     (uuid 77356afc-e024-40f9-8e66-9f658d0b2345)
@@ -2247,7 +2118,7 @@
     (stroke (width 0) (type default))
     (uuid 78ab20db-7e63-4a1c-b0bd-cd84762872a8)
   )
-  (wire (pts (xy 200.66 137.16) (xy 200.66 134.62))
+  (wire (pts (xy 220.98 85.09) (xy 220.98 82.55))
     (stroke (width 0) (type default))
     (uuid 79b52221-3c24-46dc-9c6f-f030ba7ca03c)
   )
@@ -2271,17 +2142,13 @@
     (stroke (width 0) (type default))
     (uuid 80c23b50-98ff-478e-9fa9-ecddfba33c89)
   )
-  (wire (pts (xy 200.66 134.62) (xy 200.66 132.08))
+  (wire (pts (xy 220.98 82.55) (xy 220.98 80.01))
     (stroke (width 0) (type default))
     (uuid 80dcc5be-de38-4361-b5b7-0b467f856076)
   )
   (wire (pts (xy 39.37 29.21) (xy 41.91 29.21))
     (stroke (width 0) (type default))
     (uuid 812e32e0-dc85-49bb-965a-f056ede10fe0)
-  )
-  (wire (pts (xy 177.8 20.32) (xy 180.34 20.32))
-    (stroke (width 0) (type default))
-    (uuid 821cc044-ade6-48fd-855b-941413fb009d)
   )
   (wire (pts (xy 107.95 180.34) (xy 107.95 177.8))
     (stroke (width 0) (type default))
@@ -2299,7 +2166,7 @@
     (stroke (width 0) (type default))
     (uuid 8763c667-43b7-4017-8634-f5535b92f0ed)
   )
-  (wire (pts (xy 200.66 152.4) (xy 200.66 149.86))
+  (wire (pts (xy 220.98 100.33) (xy 220.98 97.79))
     (stroke (width 0) (type default))
     (uuid 87c81fe7-c1eb-4319-8111-4dcdd8376da4)
   )
@@ -2311,21 +2178,13 @@
     (stroke (width 0) (type default))
     (uuid 8b1e4b49-63ea-4d92-967a-b0f0a86fe8f0)
   )
-  (wire (pts (xy 184.15 57.15) (xy 186.69 57.15))
-    (stroke (width 0) (type default))
-    (uuid 8c04afb9-b1f8-4c90-ac49-a28427d82448)
-  )
-  (wire (pts (xy 200.66 142.24) (xy 200.66 139.7))
+  (wire (pts (xy 220.98 90.17) (xy 220.98 87.63))
     (stroke (width 0) (type default))
     (uuid 9042d6a7-b6d3-447a-b50c-f37b584e64a1)
   )
   (wire (pts (xy 87.63 41.91) (xy 87.63 44.45))
     (stroke (width 0) (type default))
     (uuid 9282627e-635b-4e67-a5be-f5489a858a61)
-  )
-  (wire (pts (xy 184.15 113.03) (xy 186.69 113.03))
-    (stroke (width 0) (type default))
-    (uuid 92d43a99-5b84-4ac4-a9fe-d1ba0aab3ad9)
   )
   (wire (pts (xy 243.84 143.51) (xy 243.84 127))
     (stroke (width 0) (type default))
@@ -2335,7 +2194,7 @@
     (stroke (width 0) (type default))
     (uuid 967230b3-070e-4bc5-9d9d-003d7226419e)
   )
-  (wire (pts (xy 200.66 132.08) (xy 200.66 129.54))
+  (wire (pts (xy 220.98 80.01) (xy 220.98 77.47))
     (stroke (width 0) (type default))
     (uuid 98b27f5c-506b-4f23-b309-d45bbf26c565)
   )
@@ -2343,13 +2202,13 @@
     (stroke (width 0) (type default))
     (uuid 98f3d585-6a22-42e2-8a33-75f32412398d)
   )
+  (wire (pts (xy 172.72 53.34) (xy 172.72 50.8))
+    (stroke (width 0) (type default))
+    (uuid 9a0cb699-7fd9-4ed3-a60b-0fdb77ebac44)
+  )
   (wire (pts (xy 25.4 165.1) (xy 25.4 170.18))
     (stroke (width 0) (type default))
     (uuid 9af394ed-0feb-4ce8-9568-fba8e2dfff2b)
-  )
-  (wire (pts (xy 181.61 57.15) (xy 184.15 57.15))
-    (stroke (width 0) (type default))
-    (uuid 9c4d2de2-b25c-414b-a8ec-a898ffee8c47)
   )
   (wire (pts (xy 82.55 124.46) (xy 82.55 128.27))
     (stroke (width 0) (type default))
@@ -2358,6 +2217,10 @@
   (wire (pts (xy 279.4 127) (xy 280.67 127))
     (stroke (width 0) (type default))
     (uuid 9d304033-adc6-4fc2-89f0-fe17b82ca6bf)
+  )
+  (wire (pts (xy 172.72 21.59) (xy 172.72 24.13))
+    (stroke (width 0) (type default))
+    (uuid 9ff7a7e5-32d3-4790-b8b7-d654f84ccddc)
   )
   (wire (pts (xy 144.78 59.69) (xy 144.78 60.96))
     (stroke (width 0) (type default))
@@ -2371,17 +2234,9 @@
     (stroke (width 0) (type default))
     (uuid a37195f3-24b1-4a4d-97f2-98ed281a5952)
   )
-  (wire (pts (xy 200.66 154.94) (xy 200.66 152.4))
+  (wire (pts (xy 220.98 102.87) (xy 220.98 100.33))
     (stroke (width 0) (type default))
     (uuid a6f1280a-2ab7-4c45-bdb9-a6adb312eb66)
-  )
-  (wire (pts (xy 163.83 113.03) (xy 166.37 113.03))
-    (stroke (width 0) (type default))
-    (uuid a75bd7df-4e6d-4d8c-8276-2a76f2a5594b)
-  )
-  (wire (pts (xy 187.96 20.32) (xy 190.5 20.32))
-    (stroke (width 0) (type default))
-    (uuid adbcfcb5-e8a9-4fd3-ab09-c2bbd77aabca)
   )
   (wire (pts (xy 260.35 113.03) (xy 260.35 92.71))
     (stroke (width 0) (type default))
@@ -2390,10 +2245,6 @@
   (wire (pts (xy 107.95 177.8) (xy 110.49 177.8))
     (stroke (width 0) (type default))
     (uuid af71d2ec-ff51-476d-bfa9-842088467757)
-  )
-  (wire (pts (xy 190.5 20.32) (xy 193.04 20.32))
-    (stroke (width 0) (type default))
-    (uuid b0dae3b0-2a96-46e6-8de5-276bfbaa9ad7)
   )
   (wire (pts (xy 152.4 20.32) (xy 152.4 24.13))
     (stroke (width 0) (type default))
@@ -2407,10 +2258,6 @@
     (stroke (width 0) (type default))
     (uuid b479590e-7c12-4f92-a241-1f0e056e9e4b)
   )
-  (wire (pts (xy 165.1 20.32) (xy 167.64 20.32))
-    (stroke (width 0) (type default))
-    (uuid b48b3ff2-f214-481c-8050-9015147e7cc0)
-  )
   (wire (pts (xy 247.65 143.51) (xy 243.84 143.51))
     (stroke (width 0) (type default))
     (uuid b4ad54d5-69d4-4c4d-8ba2-036f62f7b228)
@@ -2418,10 +2265,6 @@
   (wire (pts (xy 68.58 24.13) (xy 63.5 24.13))
     (stroke (width 0) (type default))
     (uuid b608add9-7444-4135-b5e6-4e7127b438d6)
-  )
-  (wire (pts (xy 175.26 20.32) (xy 177.8 20.32))
-    (stroke (width 0) (type default))
-    (uuid b763b8ec-8201-4d4d-bb42-c431c8f50d96)
   )
   (wire (pts (xy 53.34 182.88) (xy 53.34 184.15))
     (stroke (width 0) (type default))
@@ -2431,25 +2274,17 @@
     (stroke (width 0) (type default))
     (uuid b8d673e8-0067-4d2d-9347-bebaeb7e44d3)
   )
+  (wire (pts (xy 172.72 24.13) (xy 170.18 24.13))
+    (stroke (width 0) (type default))
+    (uuid bb5ae7f6-d194-41f9-b490-7325a547b23e)
+  )
   (wire (pts (xy 241.3 113.03) (xy 245.11 113.03))
     (stroke (width 0) (type default))
     (uuid bbe3ee17-e266-40a6-830e-e761bc2f2345)
   )
-  (wire (pts (xy 189.23 57.15) (xy 191.77 57.15))
-    (stroke (width 0) (type default))
-    (uuid bcab1f60-9080-4a1e-9c6c-2b5eb71b7143)
-  )
   (wire (pts (xy 127 107.95) (xy 127 111.76))
     (stroke (width 0) (type default))
     (uuid bcaf5322-29d4-4577-9cff-134399831763)
-  )
-  (wire (pts (xy 191.77 57.15) (xy 194.31 57.15))
-    (stroke (width 0) (type default))
-    (uuid bf46db29-d060-4e5d-9267-2a3c7a27734d)
-  )
-  (wire (pts (xy 167.64 20.32) (xy 170.18 20.32))
-    (stroke (width 0) (type default))
-    (uuid c003a3f4-0996-47e7-b07b-d076a16cffa4)
   )
   (wire (pts (xy 82.55 140.97) (xy 82.55 144.78))
     (stroke (width 0) (type default))
@@ -2471,10 +2306,6 @@
     (stroke (width 0) (type default))
     (uuid c6c1148e-c88c-46e6-b103-4cae17374106)
   )
-  (wire (pts (xy 172.72 20.32) (xy 175.26 20.32))
-    (stroke (width 0) (type default))
-    (uuid c8fa1988-916a-46d7-89d0-47cfacc9ed37)
-  )
   (wire (pts (xy 44.45 27.94) (xy 39.37 27.94))
     (stroke (width 0) (type default))
     (uuid ca1c9711-b848-4840-a40d-61447111b5db)
@@ -2482,10 +2313,6 @@
   (wire (pts (xy 260.35 114.3) (xy 260.35 113.03))
     (stroke (width 0) (type default))
     (uuid cbeb40c3-3672-4c43-8fc2-c9e30aa67f1e)
-  )
-  (wire (pts (xy 180.34 20.32) (xy 182.88 20.32))
-    (stroke (width 0) (type default))
-    (uuid cc9a678e-bf8b-41b9-ab46-12d8f1e68bfa)
   )
   (wire (pts (xy 57.15 166.37) (xy 57.15 170.18))
     (stroke (width 0) (type default))
@@ -2495,7 +2322,7 @@
     (stroke (width 0) (type default))
     (uuid d1b099f2-362d-4932-aa7c-a013ba055a3d)
   )
-  (wire (pts (xy 200.66 157.48) (xy 200.66 154.94))
+  (wire (pts (xy 220.98 105.41) (xy 220.98 102.87))
     (stroke (width 0) (type default))
     (uuid d285800e-8708-4e94-9d76-1eb4bd0c539d)
   )
@@ -2507,21 +2334,9 @@
     (stroke (width 0) (type default))
     (uuid d89ab303-c763-421a-aee1-b4f88e23a8e6)
   )
-  (wire (pts (xy 176.53 113.03) (xy 179.07 113.03))
-    (stroke (width 0) (type default))
-    (uuid d9bbd59b-3a0f-434a-90c9-f4ca894c6910)
-  )
-  (wire (pts (xy 176.53 57.15) (xy 179.07 57.15))
-    (stroke (width 0) (type default))
-    (uuid da2881d2-ee56-4ce8-b559-4f935f337e50)
-  )
   (wire (pts (xy 241.3 104.14) (xy 241.3 95.25))
     (stroke (width 0) (type default))
     (uuid de30ebc9-eaa3-48c2-b2d5-d0fb152267f1)
-  )
-  (wire (pts (xy 181.61 113.03) (xy 184.15 113.03))
-    (stroke (width 0) (type default))
-    (uuid dec53717-8f51-4021-a03f-dc4f486a69a6)
   )
   (wire (pts (xy 52.07 27.94) (xy 49.53 27.94))
     (stroke (width 0) (type default))
@@ -2547,17 +2362,13 @@
     (stroke (width 0) (type default))
     (uuid e45dfa74-7f9a-425e-aaac-e6b10da64df9)
   )
-  (wire (pts (xy 200.66 147.32) (xy 200.66 144.78))
+  (wire (pts (xy 220.98 95.25) (xy 220.98 92.71))
     (stroke (width 0) (type default))
     (uuid e70c1e6b-88ed-4a49-a635-ba00c6c77bf0)
   )
   (wire (pts (xy 48.26 170.18) (xy 57.15 170.18))
     (stroke (width 0) (type default))
     (uuid e75dde08-f8a9-438d-bd24-fab3dfb4f4df)
-  )
-  (wire (pts (xy 170.18 20.32) (xy 172.72 20.32))
-    (stroke (width 0) (type default))
-    (uuid eab57ffc-7823-4c62-9db4-40c67d7db707)
   )
   (wire (pts (xy 53.34 172.72) (xy 53.34 175.26))
     (stroke (width 0) (type default))
@@ -2571,14 +2382,6 @@
     (stroke (width 0) (type default))
     (uuid eeb9391e-5823-4cb5-9323-7b2f3963a108)
   )
-  (wire (pts (xy 171.45 57.15) (xy 173.99 57.15))
-    (stroke (width 0) (type default))
-    (uuid eedffc43-f26c-440a-95f0-250fdfea7575)
-  )
-  (wire (pts (xy 173.99 113.03) (xy 176.53 113.03))
-    (stroke (width 0) (type default))
-    (uuid efa5a78f-7a60-4891-a7e9-f24ff2498428)
-  )
   (wire (pts (xy 33.02 182.88) (xy 33.02 184.15))
     (stroke (width 0) (type default))
     (uuid f111d24e-8b3c-4fe0-b035-61d44cb9701d)
@@ -2587,9 +2390,9 @@
     (stroke (width 0) (type default))
     (uuid f206e4ca-a549-4586-937a-96dd2bff2360)
   )
-  (wire (pts (xy 179.07 113.03) (xy 181.61 113.03))
+  (wire (pts (xy 175.26 24.13) (xy 172.72 24.13))
     (stroke (width 0) (type default))
-    (uuid f33c0e82-20a7-4d96-aa57-978955a25577)
+    (uuid f2aa722b-7a2d-4af5-9623-ba1b416bdc70)
   )
   (wire (pts (xy 36.83 33.02) (xy 41.91 33.02))
     (stroke (width 0) (type default))
@@ -2607,7 +2410,7 @@
     (stroke (width 0) (type default))
     (uuid f99a6c1f-afac-4a0c-8674-2bc82ae96784)
   )
-  (wire (pts (xy 200.66 139.7) (xy 200.66 137.16))
+  (wire (pts (xy 220.98 87.63) (xy 220.98 85.09))
     (stroke (width 0) (type default))
     (uuid fb5f33a3-0f93-45ed-a891-9bce3da73181)
   )
@@ -2615,15 +2418,11 @@
     (stroke (width 0) (type default))
     (uuid fc4631ef-5b67-4e4d-9a80-341011ec2811)
   )
-  (wire (pts (xy 168.91 57.15) (xy 171.45 57.15))
-    (stroke (width 0) (type default))
-    (uuid fe6e9283-c2d1-4fca-a69e-dd27df79c7f5)
-  )
   (wire (pts (xy 252.73 104.14) (xy 262.89 104.14))
     (stroke (width 0) (type default))
     (uuid feae61a3-385e-4a04-a8da-19afd7323375)
   )
-  (wire (pts (xy 200.66 149.86) (xy 200.66 147.32))
+  (wire (pts (xy 220.98 97.79) (xy 220.98 95.25))
     (stroke (width 0) (type default))
     (uuid ff2021bb-eba7-4507-af96-f72db5e474d7)
   )
@@ -2642,6 +2441,11 @@
     (fill (type none))
     (uuid 8328dceb-faa4-4aa5-be19-3552a00d6453)
   )
+  (rectangle (start 68.58 154.94) (end 151.13 196.85)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 9cadf490-f7f0-41ff-9f87-fc4f395dcb9d)
+  )
   (rectangle (start 131.445 12.065) (end 160.655 56.515)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -2652,23 +2456,28 @@
     (fill (type none))
     (uuid ba260113-f947-410d-8f30-2cd982ebb1f0)
   )
-  (rectangle (start 160.655 65.405) (end 224.79 164.465)
+  (rectangle (start 160.655 65.405) (end 227.33 118.11)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid f187c36f-80c1-4e9b-b7ed-b7907c2dfded)
+  )
+  (rectangle (start 74.93 81.28) (end 151.13 154.94)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid f65c4abb-3c99-4346-bb9f-4f886dda6492)
   )
 
   (text "Seeing I Hat - ECE445\n" (at 180.975 174.625 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 06bc6c82-01bd-4744-9574-48c3df3fb33e)
   )
+  (text "Haptic Motor I/O Ports" (at 184.15 68.58 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0a55ffdd-3510-407a-acef-7e49c42e7538)
+  )
   (text "Debug Header" (at 233.68 130.81 90)
     (effects (font (size 3.81 3.81) (thickness 0.762) bold) (justify left bottom))
     (uuid 18364c44-db72-4e69-9889-1cf7ac79103e)
-  )
-  (text "Haptic Feedback System" (at 199.39 162.56 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 35c1e903-b3b9-4ed0-94ad-c06c96cc8650)
   )
   (text "Doppler Radar\n" (at 241.3 40.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2682,13 +2491,21 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid af324236-eeff-4970-b9cf-4b4b4603dcf1)
   )
+  (text "Power In Zone\n" (at 71.12 160.02 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c81ac8e0-c34c-41b9-b273-cd3f442a00e2)
+  )
   (text "Vcap" (at 135.255 60.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dd1a658e-7e59-4597-a477-873ad01cb6f0)
   )
-  (text "Hall Effect Sensors" (at 173.355 65.405 0)
+  (text "Hall Effect Sensors" (at 187.96 16.51 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e3b84494-a1e1-4544-b89a-32fed74db0d8)
+  )
+  (text "Haptic Motor Transistors\n" (at 81.28 152.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e9091012-269a-48d9-97cb-d063835baca0)
   )
 
   (label "M10" (at 203.2 109.22 0) (fields_autoplaced)
@@ -3106,7 +2923,7 @@
     )
     (pin "1" (uuid 6b4ab232-a2cc-42e4-931c-8ecded2e4f10))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR029") (unit 1)
         )
@@ -3142,7 +2959,7 @@
     (pin "1" (uuid bf92e7f7-a8f1-4979-a1e6-63006cce2bbc))
     (pin "2" (uuid 2421aead-6669-43f1-84b4-ec313a79cf7c))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C5") (unit 1)
         )
@@ -3169,7 +2986,7 @@
     (pin "2" (uuid f78de6e5-3167-423d-b013-452e9887b886))
     (pin "3" (uuid 6dec7c5e-615c-4286-8d29-02ba4915fb89))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J15") (unit 1)
         )
@@ -3204,7 +3021,7 @@
     )
     (pin "1" (uuid 58433781-8040-45de-909d-c1137d55c670))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR035") (unit 1)
         )
@@ -3234,7 +3051,7 @@
     )
     (pin "1" (uuid 2e746a27-d81d-415d-8a72-dba576b49080))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR038") (unit 1)
         )
@@ -3280,7 +3097,7 @@
     (pin "2" (uuid 4c0bbfd7-040f-4e9b-974e-059e7c43c62d))
     (pin "1" (uuid 2c783f3b-33f9-4e9b-a658-58cddecdb12a))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q11") (unit 1)
         )
@@ -3310,7 +3127,7 @@
     )
     (pin "1" (uuid 8d70d8d0-4eba-4376-8b41-f528a877b005))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR044") (unit 1)
         )
@@ -3351,7 +3168,7 @@
     (pin "2" (uuid 93b50c89-2603-47c0-a2ba-5bdac24686dd))
     (pin "1" (uuid be11efa4-4f6e-479b-9f11-d97d29407eab))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q5") (unit 1)
         )
@@ -3392,7 +3209,7 @@
     (pin "2" (uuid 73b8f460-fdc4-4723-9d14-3aa56643d51f))
     (pin "1" (uuid 5e3f01ea-0f4c-4e2a-b0a4-9285e69eb1fb))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q2") (unit 1)
         )
@@ -3405,82 +3222,28 @@
     )
   )
 
-  (symbol (lib_id "Connector:Screw_Terminal_01x12") (at 179.07 118.11 270) (unit 1)
+  (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 172.72 29.21 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 13adb9e6-d8b8-45d4-bf53-8e43aa64f858)
-    (property "Reference" "J11" (at 177.8 121.92 90)
-      (effects (font (size 1.27 1.27)))
+    (uuid 1b99753b-25fd-425c-bd81-37f2fa65d5dc)
+    (property "Reference" "J22" (at 171.45 35.56 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Screw_Terminal_01x12" (at 177.8 124.46 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "Screw_Terminal_01x03" (at 162.56 31.75 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 179.07 118.11 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (at 172.72 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 179.07 118.11 0)
+    (property "Datasheet" "~" (at 172.72 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "10" (uuid 43c7e74f-d8cc-48cd-9ca4-fb6fe9514be0))
-    (pin "2" (uuid fb5f7b7a-12b9-4761-8b3d-fa6fcddbbf0a))
-    (pin "4" (uuid 1f11a747-8282-418f-ac3d-735298e33b40))
-    (pin "6" (uuid 61842ecf-b825-4b9f-b874-f79b2b89754d))
-    (pin "7" (uuid 87a89319-14af-47ea-9ca4-c1aed3dfaefd))
-    (pin "8" (uuid 383c57bb-1daf-4284-8222-d28bfef807af))
-    (pin "9" (uuid 0dd221eb-0b46-43b6-b71c-3f34a6db8fb4))
-    (pin "11" (uuid f93959df-a583-4b5a-88c8-e46b2da4b651))
-    (pin "1" (uuid 54a2c3b9-d93e-4644-a457-059724d8038b))
-    (pin "12" (uuid ac5f5b7c-40c1-45e2-834b-9dafc972dd6a))
-    (pin "3" (uuid 69fef77b-7709-45a5-a6a5-94ace2aac3eb))
-    (pin "5" (uuid 75cb0d22-a9be-404a-b7d5-bddb621cf244))
+    (pin "1" (uuid 89f18cd3-3027-4ade-85dc-d3fe19186ad4))
+    (pin "3" (uuid 20442ffd-699f-4567-80fe-dfa72f30529b))
+    (pin "2" (uuid d9acea75-0c12-45be-9718-de8081781943))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "J11") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "J11") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "J11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 166.37 57.15 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1632f1d1-fc83-41d5-9015-b7e079b7fe39)
-    (property "Reference" "#PWR076" (at 166.37 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 166.37 62.23 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 166.37 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 166.37 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1d66c29a-a562-440b-a2b1-f5fb28c70af1))
-    (instances
-      (project "ECE 445 Round 5 PCB (1)"
-        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "#PWR076") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "#PWR076") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "#PWR076") (unit 1)
+          (reference "J22") (unit 1)
         )
       )
     )
@@ -3514,7 +3277,7 @@
     (pin "2" (uuid b85f876e-21bd-486f-ab8d-ba6394abef96))
     (pin "1" (uuid 518b7b6f-8a78-4c66-bcca-a2e10032024b))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q6") (unit 1)
         )
@@ -3545,7 +3308,7 @@
     (pin "1" (uuid 43c1abb9-47c3-4b25-be30-c0b573c5598e))
     (pin "2" (uuid e4974164-868c-45e4-8fc6-5a6fecc31de2))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "R9") (unit 1)
         )
@@ -3570,7 +3333,7 @@
     )
     (pin "1" (uuid 365f4bb8-d2fc-4464-8ca2-1a3c3d96546c))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR09") (unit 1)
         )
@@ -3605,7 +3368,7 @@
     )
     (pin "1" (uuid eca800b1-a349-49e4-8ac3-12e2ed6b9ae1))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR030") (unit 1)
         )
@@ -3637,7 +3400,7 @@
     (pin "2" (uuid 3f64893b-1fb0-4918-b8f9-973d009b168a))
     (pin "3" (uuid 7d524b4c-8a4d-41c1-9833-5129bc73246a))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J19") (unit 1)
         )
@@ -3673,7 +3436,7 @@
     (pin "2" (uuid 31e58486-d621-47fe-bfc5-a9f5c8cd3495))
     (pin "1" (uuid 67a0d981-c6a1-4f27-a759-5db8f011160a))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C18") (unit 1)
         )
@@ -3699,7 +3462,7 @@
     (pin "1" (uuid ad9991a7-2b76-46b0-8b60-05a4bf28a389))
     (pin "2" (uuid dfb7fc0e-0695-4003-a0e8-d5a7301f375a))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "R10") (unit 1)
         )
@@ -3725,7 +3488,7 @@
     (pin "2" (uuid 1c71e77f-f000-4cc1-9665-7813aaf6adfc))
     (pin "1" (uuid 2858b421-3ad9-40b4-9efc-fb7444433342))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C4") (unit 1)
         )
@@ -3751,7 +3514,7 @@
     (pin "1" (uuid 252d10d5-2a5a-4a49-89c1-fe35ef50dc4b))
     (pin "2" (uuid 99755d8f-21bf-458c-8cd2-a043e129881a))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "SW1") (unit 1)
         )
@@ -3787,7 +3550,7 @@
     (pin "2" (uuid 1c71e77f-f000-4cc1-9665-7813aaf6adfd))
     (pin "1" (uuid 2858b421-3ad9-40b4-9efc-fb7444433343))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C3") (unit 1)
         )
@@ -3823,7 +3586,7 @@
     (pin "2" (uuid f4adf80a-cda7-4c7e-93c9-77fe616a4238))
     (pin "1" (uuid 9b855136-0bec-4bed-bda1-c89fd9e546a9))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q9") (unit 1)
         )
@@ -3862,7 +3625,7 @@
     (pin "8" (uuid 41b0d6a0-d4b4-4e16-8667-12323427cbe0))
     (pin "9" (uuid 4461d84b-d3b9-4434-93ad-21d78f121038))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J20") (unit 1)
         )
@@ -3898,7 +3661,7 @@
     (pin "1" (uuid 232e3fe6-3353-4bd5-8e0f-dbb2799c69c8))
     (pin "2" (uuid b342963a-0a06-46ed-9db5-445b4a81e3c2))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "JP1") (unit 1)
         )
@@ -3933,7 +3696,7 @@
     )
     (pin "1" (uuid ad58b5f5-38d7-49c5-a360-2c637d7cf7ee))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#FLG01") (unit 1)
         )
@@ -3958,7 +3721,7 @@
     )
     (pin "1" (uuid f243dbf8-603c-42b0-a77c-2aec3e38c8db))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR010") (unit 1)
         )
@@ -3993,7 +3756,7 @@
     )
     (pin "1" (uuid ef7e9bec-147a-4127-94bb-0e7718109333))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR037") (unit 1)
         )
@@ -4023,9 +3786,34 @@
     )
     (pin "1" (uuid 3234c5ef-d9a7-4bcd-83fd-02b6f870a278))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#FLG03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 172.72 53.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4cb9bed9-47da-4a40-9cf7-2f37e7379cea)
+    (property "Reference" "#PWR06" (at 172.72 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 172.72 57.15 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 172.72 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 172.72 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f2f05c71-a2a5-41ab-af1c-7c6b9eb2ac4d))
+    (instances
+      (project "ECE 445 Round 5 PCB"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4050,7 +3838,7 @@
     (pin "2" (uuid dace6c85-1976-4b2b-8559-46ff96bbff12))
     (pin "3" (uuid 55171b7f-33a9-4c0d-b283-527220707bb4))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J13") (unit 1)
         )
@@ -4063,41 +3851,6 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "J13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 163.83 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 52cc3149-6785-4854-9c2d-b6aa0f280f0b)
-    (property "Reference" "#PWR013" (at 163.83 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 163.83 107.95 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 163.83 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 163.83 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5e32970c-11e0-4a44-a866-fab39edebc7d))
-    (instances
-      (project "ECE 445 Round 5 PCB (1)"
-        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "#PWR013") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "#PWR013") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4122,7 +3875,7 @@
     (pin "2" (uuid 7cf7555b-5669-4118-acc2-bce45a501531))
     (pin "3" (uuid 734ade1a-eafa-4623-b0d6-b80a5f7fa9a1))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J18") (unit 1)
         )
@@ -4135,6 +3888,33 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "J18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 172.72 45.72 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 582b67d5-c244-46b3-ad07-27ccba764b84)
+    (property "Reference" "J23" (at 173.99 40.64 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Screw_Terminal_01x03" (at 184.15 43.18 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (at 172.72 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 172.72 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8055493f-7fd0-4a51-b224-8f313243338e))
+    (pin "3" (uuid cd10b05f-1295-47e4-a12f-87352f9d1602))
+    (pin "2" (uuid ee99ce44-05e0-4607-963f-140b746e8877))
+    (instances
+      (project "ECE 445 Round 5 PCB"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "J23") (unit 1)
         )
       )
     )
@@ -4157,7 +3937,7 @@
     )
     (pin "1" (uuid dc8fdfc3-b8fb-49f3-8c6b-297afaa1ad9d))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR032") (unit 1)
         )
@@ -4189,7 +3969,7 @@
     (pin "2" (uuid 5164fb6b-f2a7-4f6c-b61d-9a4039413639))
     (pin "3" (uuid 7418c649-61e4-4354-bf4a-462546c23fd1))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J6") (unit 1)
         )
@@ -4224,7 +4004,7 @@
     )
     (pin "1" (uuid 25ddc3f1-e94d-4af0-bc77-5ae21c09eefc))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR027") (unit 1)
         )
@@ -4259,7 +4039,7 @@
     )
     (pin "1" (uuid ab036f02-e9ce-4c12-9f7a-4bf43f96aee4))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR031") (unit 1)
         )
@@ -4294,7 +4074,7 @@
     )
     (pin "1" (uuid a226cccc-7901-4e14-9501-785c5eb9df8f))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR025") (unit 1)
         )
@@ -4329,7 +4109,7 @@
     )
     (pin "1" (uuid 1a0f5e2d-82bc-4655-a0ff-1ddac986b147))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR02") (unit 1)
         )
@@ -4365,7 +4145,7 @@
     (pin "2" (uuid df5eca3b-649b-459e-ac43-6d8e117a0392))
     (pin "1" (uuid 941efe48-c6d1-4d90-94ab-9a9ca2d9738c))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q10") (unit 1)
         )
@@ -4395,7 +4175,7 @@
     )
     (pin "1" (uuid 12dd083d-c068-4a77-8f4a-d5470db4847e))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR033") (unit 1)
         )
@@ -4425,7 +4205,7 @@
     )
     (pin "1" (uuid e4ae5e12-7b4a-4f5e-b983-a0757ad04031))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR042") (unit 1)
         )
@@ -4457,7 +4237,7 @@
     (pin "2" (uuid 9b039f3e-f8ca-4f3a-930e-0d75b69ebe44))
     (pin "3" (uuid 87e5edd9-f2fc-45fa-922c-9318e5eeae05))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J10") (unit 1)
         )
@@ -4482,55 +4262,9 @@
     )
     (pin "1" (uuid 76a6e4bf-8ea7-4712-9baa-c040a3c9ddef))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#FLG04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Screw_Terminal_01x12") (at 180.34 25.4 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6d3d22fd-6a72-477b-bf74-fadcbee26894)
-    (property "Reference" "J27" (at 179.07 29.21 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Screw_Terminal_01x12" (at 179.07 31.75 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 180.34 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 180.34 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "10" (uuid e41afc4c-27dc-43bd-b316-57982dd19a86))
-    (pin "2" (uuid 18739c16-f7cf-42c9-b8a6-1b86715b1834))
-    (pin "4" (uuid 3850c2d1-bfda-4b33-b909-144f202eebd1))
-    (pin "6" (uuid dca430ae-8d9c-4ff6-8d8b-01a239bc424a))
-    (pin "7" (uuid fd5893e0-d3f5-4f4f-a428-c69772f18d9f))
-    (pin "8" (uuid 28218492-03ef-45dc-9ca0-c5edc574097a))
-    (pin "9" (uuid 73cbebb3-95bb-4094-b6ba-45db9b96ac6c))
-    (pin "11" (uuid c88fe955-4e03-4288-8ffe-77b96d20be6d))
-    (pin "1" (uuid 00eb4a96-8f29-4a6f-81f4-9cb5a48d141a))
-    (pin "12" (uuid cdd488da-568f-4c1f-b4ef-d791b6d6346b))
-    (pin "3" (uuid fceda54a-620c-4acf-97e3-f36dd102be70))
-    (pin "5" (uuid 1686a348-f47d-458d-a6e6-a7b0c9cf4c81))
-    (instances
-      (project "ECE 445 Round 5 PCB (1)"
-        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "J27") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "J27") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "J27") (unit 1)
         )
       )
     )
@@ -4554,7 +4288,7 @@
     (pin "1" (uuid 8f8deb59-2613-4820-be29-e14bc149b919))
     (pin "2" (uuid 296b43f5-266f-421c-a2ab-07cbfc1ca0ee))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C17") (unit 1)
         )
@@ -4590,7 +4324,7 @@
     (pin "2" (uuid dd28e0eb-c643-43bf-9b2c-df557d4d5ef6))
     (pin "1" (uuid 0e38a327-faed-43c2-88d8-86f1e380e7fc))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "R19") (unit 1)
         )
@@ -4615,7 +4349,7 @@
     )
     (pin "1" (uuid ac6708ab-ed5c-47da-afd6-30701d623061))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#FLG02") (unit 1)
         )
@@ -4640,7 +4374,7 @@
     )
     (pin "1" (uuid 31042171-85ff-42d2-a14e-16a9191cca0d))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR046") (unit 1)
         )
@@ -4648,41 +4382,6 @@
       (project "PCB_R2"
         (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
           (reference "#PWR046") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 165.1 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 86744a47-569b-4738-88e7-c4821ed665bf)
-    (property "Reference" "#PWR075" (at 165.1 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 165.1 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d84a2be5-4458-4995-a357-51bf3184958b))
-    (instances
-      (project "ECE 445 Round 5 PCB (1)"
-        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "#PWR075") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "#PWR075") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -4705,7 +4404,7 @@
     )
     (pin "1" (uuid 849918b2-6cdf-4ddf-81da-9180a0f3fccd))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR01") (unit 1)
         )
@@ -4732,7 +4431,7 @@
     (pin "2" (uuid 927270e2-3bb2-4684-b664-14cbd4b787ed))
     (pin "3" (uuid fe5c1e2b-6f9a-4e08-9f7e-a20c2bdae335))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J5") (unit 1)
         )
@@ -4778,7 +4477,7 @@
     (pin "2" (uuid 7d9aac8b-1b9f-4ee8-b91d-5a2c74b1b7f0))
     (pin "1" (uuid 8f7d7447-0df0-40d6-82e1-4908dd9f25ee))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q7") (unit 1)
         )
@@ -4791,24 +4490,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 200.66 157.48 90) (mirror x) (unit 1)
+  (symbol (lib_id "power:GND") (at 220.98 105.41 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d51eae1-938e-48e3-ba16-fd503d950b06)
-    (property "Reference" "#PWR012" (at 207.01 157.48 0)
+    (property "Reference" "#PWR012" (at 227.33 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 205.74 157.48 0)
+    (property "Value" "GND" (at 226.06 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 200.66 157.48 0)
+    (property "Footprint" "" (at 220.98 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 200.66 157.48 0)
+    (property "Datasheet" "" (at 220.98 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dbe3f4d5-0463-4a4b-a25f-1017b6194428))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR012") (unit 1)
         )
@@ -4854,7 +4553,7 @@
     (pin "2" (uuid 36987ce0-d011-4260-8ae8-04b6ba2d892e))
     (pin "1" (uuid 3158f262-ed77-48d6-8e52-9a4bfd96d428))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q1") (unit 1)
         )
@@ -4886,7 +4585,7 @@
     (pin "3" (uuid 0c409ba5-a7e8-4c5b-a50b-9cfa1440c60d))
     (pin "2" (uuid f375155c-dae2-4420-9b5c-d67524d28313))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J2") (unit 1)
         )
@@ -4911,7 +4610,7 @@
     )
     (pin "1" (uuid 9b6df516-fa65-4aa2-9af1-9622d482cc56))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR047") (unit 1)
         )
@@ -5004,7 +4703,7 @@
     (pin "50" (uuid f07ac093-b1e1-4872-ba12-ff59f5850fe9))
     (pin "56" (uuid c90b470c-c9dd-494a-ba43-3ffa176aaf89))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "U1") (unit 1)
         )
@@ -5039,7 +4738,7 @@
     )
     (pin "1" (uuid 69d747f5-14c4-43ad-8392-06a3cf6711dd))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR03") (unit 1)
         )
@@ -5066,7 +4765,7 @@
     (pin "2" (uuid 1caf2a41-f371-42b2-8715-0bd6e5e37e0d))
     (pin "3" (uuid 0e54e822-c0e7-4fcc-8295-2f02eabac8c1))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J12") (unit 1)
         )
@@ -5101,7 +4800,7 @@
     )
     (pin "1" (uuid 20328ab3-1a4f-4451-98c8-c84ec73b99e2))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR026") (unit 1)
         )
@@ -5136,7 +4835,7 @@
     )
     (pin "1" (uuid 6b8869ef-3b02-47f3-a719-4cc26a4285d3))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR04") (unit 1)
         )
@@ -5172,7 +4871,7 @@
     (pin "2" (uuid c130d400-abf0-479b-9001-c60937633ca3))
     (pin "1" (uuid 63403a69-975b-4796-8b81-bc84ed1132ba))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q3") (unit 1)
         )
@@ -5204,7 +4903,7 @@
     (pin "2" (uuid 630166c0-9d58-4e3d-9e8f-8162a9763b48))
     (pin "3" (uuid 37121188-affb-4701-8a8f-bfcd3653307c))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J17") (unit 1)
         )
@@ -5239,7 +4938,7 @@
     )
     (pin "1" (uuid b91b4f3e-09cd-495a-94bf-ce175eacde3b))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR043") (unit 1)
         )
@@ -5270,7 +4969,7 @@
     (pin "2" (uuid e03e6816-eb52-4e45-b32d-c2a1a0cc78e3))
     (pin "1" (uuid ef2b3678-e955-4d3c-85de-3250694186cd))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "R17") (unit 1)
         )
@@ -5297,7 +4996,7 @@
     (pin "2" (uuid 7eecf3f0-dbce-473e-81ac-b7a85fca2023))
     (pin "3" (uuid 46802f19-34d0-477f-ba58-328ae5c6648d))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J9") (unit 1)
         )
@@ -5333,7 +5032,7 @@
     (pin "2" (uuid 1c71e77f-f000-4cc1-9665-7813aaf6adfe))
     (pin "1" (uuid 2858b421-3ad9-40b4-9efc-fb7444433344))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C1") (unit 1)
         )
@@ -5360,7 +5059,7 @@
     (pin "3" (uuid 666ecfbe-0d24-46eb-b126-57008089f1ad))
     (pin "2" (uuid 945d6fb2-d825-426e-9ab1-f94258fc0423))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J8") (unit 1)
         )
@@ -5387,7 +5086,7 @@
     (pin "1" (uuid 0c076059-559c-4aa4-8c73-c4abe8feb6bb))
     (pin "3" (uuid de5b49b0-10e1-4e17-b65f-6b8074704bfe))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J3") (unit 1)
         )
@@ -5423,55 +5122,9 @@
     (pin "2" (uuid a35a0a00-852c-4dc6-bbb3-7b5016ccb36b))
     (pin "1" (uuid 7b3f4389-b1ae-468a-b847-4481a1bf3ca6))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "R18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Screw_Terminal_01x12") (at 181.61 52.07 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c15e43c7-edc7-4c0b-ae77-1e5c953a066a)
-    (property "Reference" "J28" (at 180.34 48.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Screw_Terminal_01x12" (at 180.34 45.72 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 181.61 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 181.61 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "10" (uuid ab4e86f3-3add-4868-b9d3-4cdc364bba35))
-    (pin "2" (uuid 32f06200-c6e3-4ca9-952c-718381a368a2))
-    (pin "4" (uuid cbfe8e2d-b463-415e-826a-69aec997fd62))
-    (pin "6" (uuid 83459aea-de13-4c04-872d-11b5278db743))
-    (pin "7" (uuid 9aa77457-f65b-47a5-9271-d7f7ccfa90c5))
-    (pin "8" (uuid c4317821-8937-4a0c-a41e-cbf42d093ca8))
-    (pin "9" (uuid 47a89ac7-5c38-4275-8ea5-10874d9b0a3a))
-    (pin "11" (uuid 27c991df-699a-4f14-8246-820675031614))
-    (pin "1" (uuid c9346570-ffc8-47b2-8636-21c3baa891d5))
-    (pin "12" (uuid 583e1d9e-153f-45d6-b755-d6f62bd3a470))
-    (pin "3" (uuid 6819cf05-0e45-4109-8a43-e59a8aef2708))
-    (pin "5" (uuid 16a557ac-d625-4dd5-9f3f-a079d31c48eb))
-    (instances
-      (project "ECE 445 Round 5 PCB (1)"
-        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
-          (reference "J28") (unit 1)
-        )
-      )
-      (project "ece445board"
-        (path "/2a64635e-39eb-4204-9363-e0c30f0ab4c6"
-          (reference "J28") (unit 1)
-        )
-      )
-      (project "PCB_R2"
-        (path "/a7242b79-cf31-4ec5-838a-8f2e4bde2c7d"
-          (reference "J28") (unit 1)
         )
       )
     )
@@ -5494,7 +5147,7 @@
     )
     (pin "1" (uuid 7042db01-f9de-4656-82b6-667d4ddfd7bd))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR039") (unit 1)
         )
@@ -5535,7 +5188,7 @@
     (pin "2" (uuid 5923937b-1b72-455e-afe5-c1559d07a2c4))
     (pin "1" (uuid f171401c-b628-4e6f-abae-5889f8ca2d61))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q8") (unit 1)
         )
@@ -5565,7 +5218,7 @@
     )
     (pin "1" (uuid 05daacdf-3005-475a-925b-a42badadab8d))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR011") (unit 1)
         )
@@ -5600,7 +5253,7 @@
     )
     (pin "1" (uuid c61fe83f-33ad-4886-9216-4d53843f4448))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR036") (unit 1)
         )
@@ -5635,7 +5288,7 @@
     )
     (pin "1" (uuid ce0461d4-bf68-4f8c-8196-cc1da0a82100))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR045") (unit 1)
         )
@@ -5665,7 +5318,7 @@
     )
     (pin "1" (uuid 049778b2-c80f-43a9-9949-8087e7ad7229))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR049") (unit 1)
         )
@@ -5695,7 +5348,7 @@
     )
     (pin "1" (uuid 0730ceaa-62c1-4e52-b762-32dcc693f0f9))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR041") (unit 1)
         )
@@ -5725,7 +5378,7 @@
     )
     (pin "1" (uuid 7a323dab-117d-4a87-a8a9-d7cd997ba86f))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR050") (unit 1)
         )
@@ -5766,7 +5419,7 @@
     (pin "2" (uuid d3acb0e9-a93b-4414-aeb5-e08f8577b851))
     (pin "1" (uuid 9ec8395e-d1f6-4c2f-ab93-222dae780776))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q12") (unit 1)
         )
@@ -5801,7 +5454,7 @@
     (pin "5" (uuid f2a8cfaa-1fd1-4d73-9182-6d4114b67d72))
     (pin "6" (uuid 2aaa5853-7e6e-44ff-a3d2-721da33706a3))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J7") (unit 1)
         )
@@ -5838,7 +5491,7 @@
     (pin "2" (uuid 0b1d394b-6383-4cd4-b97b-36e3faa07ab3))
     (pin "3" (uuid c3a00f2d-3560-48b8-8681-0b5d2350ae29))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J4") (unit 1)
         )
@@ -5874,9 +5527,34 @@
     (pin "2" (uuid 1c71e77f-f000-4cc1-9665-7813aaf6adff))
     (pin "1" (uuid 2858b421-3ad9-40b4-9efc-fb7444433345))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 172.72 21.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e5846ebb-923b-4f68-96de-6a083dc4c8f4)
+    (property "Reference" "#PWR05" (at 172.72 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 172.72 16.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 172.72 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 172.72 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d55e6f1-e0c4-4981-a086-88133fe3b84a))
+    (instances
+      (project "ECE 445 Round 5 PCB"
+        (path "/146d51af-8211-45f2-ac91-68800a4632d2"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -5899,7 +5577,7 @@
     )
     (pin "1" (uuid acc0aeb8-8a9b-4af0-b50f-1e43d03c6881))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR028") (unit 1)
         )
@@ -5917,19 +5595,19 @@
     )
   )
 
-  (symbol (lib_id "Connector:Screw_Terminal_01x12") (at 195.58 142.24 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Connector:Screw_Terminal_01x12") (at 215.9 90.17 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid eca65184-3c75-436b-bd26-9612ff9ebb0b)
-    (property "Reference" "J1" (at 191.77 143.51 90)
+    (property "Reference" "J1" (at 212.09 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Screw_Terminal_01x12" (at 189.23 143.51 90)
+    (property "Value" "Screw_Terminal_01x12" (at 215.9 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 195.58 142.24 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" (at 215.9 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 195.58 142.24 0)
+    (property "Datasheet" "~" (at 215.9 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "10" (uuid c4e43976-311d-4532-9f75-01ed3ebc2f45))
@@ -5945,7 +5623,7 @@
     (pin "3" (uuid 265e9b64-925d-4895-9a1f-fbc79b27bc5d))
     (pin "5" (uuid 88c8490b-bc17-4bd3-986e-bfdf2e2160fb))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J1") (unit 1)
         )
@@ -5980,7 +5658,7 @@
     )
     (pin "1" (uuid 54fc201b-76dd-471e-ac9f-240a3abfc9f1))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR048") (unit 1)
         )
@@ -6010,7 +5688,7 @@
     )
     (pin "1" (uuid 1135ff91-5dde-48ab-9d12-0837491fa73b))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR019") (unit 1)
         )
@@ -6047,7 +5725,7 @@
     (pin "2" (uuid f8a93030-5931-4386-a9a8-59930940d332))
     (pin "3" (uuid 1d77e81a-c726-4941-833a-eaebfd4f0079))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J16") (unit 1)
         )
@@ -6083,7 +5761,7 @@
     (pin "2" (uuid f92a89ed-61ca-4d35-891e-36c23154e453))
     (pin "1" (uuid c22ee5e1-db27-4db9-8074-bf75670828ae))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "R11") (unit 1)
         )
@@ -6108,7 +5786,7 @@
     )
     (pin "1" (uuid e3bc5652-303a-447e-9dc5-13ffc8291303))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "#PWR040") (unit 1)
         )
@@ -6140,7 +5818,7 @@
     (pin "2" (uuid e0c194fd-149b-4b1c-b47e-cafa4af2a8f3))
     (pin "3" (uuid 7c81556c-0801-4f07-853a-86fb0e3c128c))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J14") (unit 1)
         )
@@ -6186,7 +5864,7 @@
     (pin "2" (uuid 6de960fd-6e82-4e44-a6e6-045985451268))
     (pin "1" (uuid 95628bf0-47c3-4276-93f6-1c5fbd7fcd15))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "Q4") (unit 1)
         )
@@ -6218,7 +5896,7 @@
     (pin "1" (uuid 5b7d1ada-c560-4d31-9ee1-f4e7fcfa1b22))
     (pin "3" (uuid 83eeced5-28eb-45e1-8e85-4edae785c904))
     (instances
-      (project "ECE 445 Round 5 PCB (1)"
+      (project "ECE 445 Round 5 PCB"
         (path "/146d51af-8211-45f2-ac91-68800a4632d2"
           (reference "J21") (unit 1)
         )
