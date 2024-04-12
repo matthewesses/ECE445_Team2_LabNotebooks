@@ -1,4 +1,4 @@
-# Task for Week of 3/18: Implement I2C communication with the STM32
+# 3/18: Implement I2C communication with the STM32
 
 ## Overview of I2C Protocol
 - I2C has a master-slave setup, where the STM32 will be acting as the master and the components it needs to communicate with
@@ -35,6 +35,18 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 ## COMPLETED YAY
 [Getting Distances with Wire Library on Arduino](https://github.com/PulsedLight3D/LIDARLite_Basics/blob/master/Arduino/LIDARLite_Wire_Library_GetDistance_ContinuousRead/LIDARLite_Wire_Library_GetDistance_ContinuousRead.ino)
 
-# Task for Week of 3/25: Receiving I2C Readings from the Spinning Motor
+## 4/11
+- I learned that we can program the STM32 on our PCB with our development board via SWD. I mapped Vin, SWDIO, SWCLK, GND,
+  and NRST from the header on the dev board to the correct pins on our PCB.
+- Installed STM32Cube Programmer so that Arduino can upload the code to the external PCB via SWD.
+- Upload works: sometimes we get issues with inability to erase memory, so that is resolved by manually pulling the NRST
+  pin down to ground.
+- Used test program where we put H0 high to check: program works.
+- However, program does not stay on the STM32 after it is disconnected from the dev board. We figured that it is due
+  to the bootloader settings.
 
-# Task for Week of 3/30: Using LEDs to indicate relative distances
+## 4/12
+- R10 and R11 on the board with the STM32 are now shorted, and those resistors are connected to BOOT0 and BOOT1. We may
+  drill that part of the board to get rid of the resistor problems.
+- Bootloader settings: I hypothesize that we need to load from flash memory, so we set BOOT0 to 0 and BOOT1 is a don't care.
+  So the BOOT0 pin must go to ground, and we're planning to set BOOT1 to ground as well.
