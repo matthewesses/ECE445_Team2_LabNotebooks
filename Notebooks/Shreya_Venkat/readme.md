@@ -55,4 +55,10 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - We need to resolder the STM32 on a different board.
 - In the meantime, we will test with our development baord. I will start writing code to turn on the correct motors
   corresponding to the hall effect sensors.
-- Accounting for two different versions: one on the external PCB and another on the dev board
+- Accounting for two different versions: one on the external PCB and another on the dev board.
+- I wrote two sets of code: one for the PCB, and another for our backup dev board.
+- We do not have enough pins on our STM Nucleo board to account for all of our components. Therefore, we've decided to
+  switch to an Arduino Mega, in the case that we do not get our PCB working.
+- Wrote two more sets of code: combined LiDAR functionality with the hall effect sensor and motor code for both versions.
+- Everything has been uploaded to Github in my notebook: will also upload to the code folder in the main repo.
+[Arrays w/Arduino IDE](https://docs.arduino.cc/built-in-examples/control-structures/Arrays/)
