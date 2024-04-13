@@ -35,7 +35,7 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 ## COMPLETED YAY
 [Getting Distances with Wire Library on Arduino](https://github.com/PulsedLight3D/LIDARLite_Basics/blob/master/Arduino/LIDARLite_Wire_Library_GetDistance_ContinuousRead/LIDARLite_Wire_Library_GetDistance_ContinuousRead.ino)
 
-## 4/11
+# 4/11
 - I learned that we can program the STM32 on our PCB with our development board via SWD. I mapped Vin, SWDIO, SWCLK, GND,
   and NRST from the header on the dev board to the correct pins on our PCB.
 - Installed STM32Cube Programmer so that Arduino can upload the code to the external PCB via SWD.
@@ -45,13 +45,14 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - However, program does not stay on the STM32 after it is disconnected from the dev board. We figured that it is due
   to the bootloader settings.
 
-## 4/12
+# 4/12
 - R10 and R11 on the board with the STM32 are now shorted, and those resistors are connected to BOOT0 and BOOT1. We may
   drill that part of the board to get rid of the resistor problems.
 - Bootloader settings: I hypothesize that we need to load from flash memory, so we set BOOT0 to 0 and BOOT1 is a don't care.
   So the BOOT0 pin must go to ground, and we're planning to set BOOT1 to ground as well.
 
-## 4/13
+# 4/13
 - We need to resolder the STM32 on a different board.
 - In the meantime, we will test with our development baord. I will start writing code to turn on the correct motors
-  corresponding to the hall effect sensors. 
+  corresponding to the hall effect sensors.
+- Accounting for two different versions: one on the external PCB and another on the dev board
