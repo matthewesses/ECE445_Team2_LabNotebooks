@@ -50,3 +50,8 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   drill that part of the board to get rid of the resistor problems.
 - Bootloader settings: I hypothesize that we need to load from flash memory, so we set BOOT0 to 0 and BOOT1 is a don't care.
   So the BOOT0 pin must go to ground, and we're planning to set BOOT1 to ground as well.
+
+## 4/13
+- We need to resolder the STM32 on a different board.
+- In the meantime, we will test with our development baord. I will start writing code to turn on the correct motors
+  corresponding to the hall effect sensors. 
