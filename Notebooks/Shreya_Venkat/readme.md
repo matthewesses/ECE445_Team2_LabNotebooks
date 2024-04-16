@@ -62,3 +62,17 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - Wrote two more sets of code: combined LiDAR functionality with the hall effect sensor and motor code for both versions.
 - Everything has been uploaded to Github in my notebook: will also upload to the code folder in the main repo.
 [Arrays w/Arduino IDE](https://docs.arduino.cc/built-in-examples/control-structures/Arrays/)
+
+# 4/14
+- The Arduino Mega came in today, and we are able to get distance measurements from the LiDAR with it.
+
+# 4/16
+- We got our third STM on the board with Jason's help.
+- We will attempt to program this chip: connect BOOT0 and BOOT1 to GND, and use SWD with the STM32.
+- We're hoping to test the hall effect module with the Arduino.
+- Currently need to think about how to synchronize the LiDAR with the hall effect sensors.
+- The magnet will be placed on the LiDAR, and the hall effect sensor that corresponds to the direction that the
+  LiDAR is in will go low due to the presence of the magnet.
+- If the LiDAR detects an obstacle 5 feet or less away in that direction, we determine the direction by checking which of
+  the hall effect sensors have gone low. 
+- Started work on Team Contract Fulfillment assignment.
