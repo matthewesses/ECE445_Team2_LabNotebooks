@@ -76,3 +76,15 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - If the LiDAR detects an obstacle 5 feet or less away in that direction, we determine the direction by checking which of
   the hall effect sensors have gone low. 
 - Started work on Team Contract Fulfillment assignment.
+
+# 4/18
+- We were able to test our hall effect sensors using the code that I wrote for it. One of the sensors consistently goes low when
+  the magnet goes over it and it is detected on the Arduino's serial monitor. Another one is not consistently detected by the
+  magnet.
+- We believe that the magnets may not be aligning correctly with the hall effect sensors as they are not in a perfect circle.
+  
+# 4/19
+- We started testing interrupts with one of the hall effect sensors. The code itself is able to detect interrupts, save for
+  potential delays with Arduino printing the corresponding print statement.
+- However, the interrupts aren't always detected, which potentially indicates a problem with the connections and soldering of the
+  board.
