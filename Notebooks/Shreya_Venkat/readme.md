@@ -88,3 +88,10 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   potential delays with Arduino printing the corresponding print statement.
 - However, the interrupts aren't always detected, which potentially indicates a problem with the connections and soldering of the
   board.
+- We decided to manually test all the sensors to make sure that they were all working as normal when we place a magnet over it.
+- We found out that all of them worked as expected except for one of them, which would turn on and off at random intervals
+  that were not affected by the placement of a magnet.
+- After some voltage and continuity testing, we have come to the conclusion that one of the hall effect sensors is completely busted.
+- Alternative Hall Effect Proposal from Varik: we can now use a stepper motor for rotation since we have moved to our atmega dev board
+    - This would now require only one hall effect sensor, and we need to know the RPM.
+    - Once that is known, we can measure the time passed by, figure out the location, and map it to the hall effect sensor.
