@@ -95,3 +95,8 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - Alternative Hall Effect Proposal from Varik: we can now use a stepper motor for rotation since we have moved to our atmega dev board
     - This would now require only one hall effect sensor, and we need to know the RPM.
     - Once that is known, we can measure the time passed by, figure out the location, and map it to the hall effect sensor.
+
+ # 4/21
+ - Connecting the haptic motors to our board and testing that all of them can work with high and low intensities.
+ - Finished the first draft of full code that involves using a stepper motor and one hall effect sensor. The LiDAR is in
+   a separate function so that it can be polled once the stepper motor has moved.
