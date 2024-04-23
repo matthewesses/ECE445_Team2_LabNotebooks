@@ -105,4 +105,7 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 Measuring wall distances:
 1. actual - 200 cm, lidar - 207 cm
 2. actual - 150 cm, lidar - 154 cm
-3. 
+3. actual - 102 cm, lidar - 109 cm
+4. actual - 70 cm, lidar - 72 cm
+5. actual - 50 cm, lidar - 49 cm
+6. actual - 30 cm, lidar - 33 cm
