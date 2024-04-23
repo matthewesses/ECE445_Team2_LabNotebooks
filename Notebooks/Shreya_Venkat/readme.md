@@ -100,3 +100,9 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
  - Connecting the haptic motors to our board and testing that all of them can work with high and low intensities.
  - Finished the first draft of full code that involves using a stepper motor and one hall effect sensor. The LiDAR is in
    a separate function so that it can be polled once the stepper motor has moved.
+
+# 4/22
+Measuring wall distances:
+1. actual - 200 cm, lidar - 207 cm
+2. actual - 150 cm, lidar - 154 cm
+3. 
