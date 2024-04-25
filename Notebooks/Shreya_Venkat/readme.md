@@ -109,3 +109,6 @@ Measuring wall distances:
 4. actual - 70 cm, lidar - 72 cm
 5. actual - 50 cm, lidar - 49 cm
 6. actual - 30 cm, lidar - 33 cm
+
+# 4/24
+CODE WORKS YAY
