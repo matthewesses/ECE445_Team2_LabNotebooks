@@ -112,3 +112,13 @@ Measuring wall distances:
 
 # 4/24
 CODE WORKS YAY
+
+# 4/25
+Notes on Mock Presentations:
+- Do not read verbatim off the slides. Don't overwhelm them with content
+- Understand the purpose of every slide included.
+- Conclusions do not need to be long: make it punchy
+- Take a pause if needed
+- include videos/pictures towards the end
+- Challenges and Successes slide is v important
+- Tell a story about an actual progression of the project.
