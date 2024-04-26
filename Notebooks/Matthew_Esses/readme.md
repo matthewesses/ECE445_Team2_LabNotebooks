@@ -114,8 +114,123 @@ No sufficient progress was made. Waited for partners to finish their portions of
 - **Control Flow Mapping:** Mapped out the control flow for the control unit's programming, ensuring a clear understanding of the system's functionality.
 - **Upcoming Tasks:** Deciding on off-board components for the half-wave rectifier and voltage divider for the Hall Effect sensors, focusing on low power consumption considerations.
 
+## 3/14-4/05 WAITING FOR THE PCB!!!
+
+The PCB took a very long time to arrive. We decided on using either a stepper motor or the motor from ECE 110 at this time.
+
+## 4/4 New scanning mechanism
+
+### **Current Progress and Next Steps:** gave up on waiting and redesigned the drive train to be belt driven instead of purely gear driven to make the Hall-Effect module feasible. 3D printing first parts
+
+# Engineering Notebook Entry - 4/7-4/10
+
+## PCB Arrival and Troubleshooting
+
+### PCB Delivery and Initial Issues
+- **PCB Arrival:** Received the PCBs today.
+- **Short Circuit Discovery:** Identified a short circuit between specific pins on the PCB.
+
+### Troubleshooting and Resolution
+- **Responsibility:** Tasked with locating and eliminating the short circuit to ensure proper board functionality.
+- **Problem Areas:** Narrowed down potential locations of the short circuit to boot1 and boot0 pins, along with the 3V line connected to the buck converters.
+- **Attempted non-destructive testing** Tried using a Nintendo switch joycon as an IR camera to read where the short was when I ran like 6W through the board, and it kinda went terribly and didnt show much due to the incident light was the only IR
+- **Resolution Approach:** Drilled small holes into the PCB to pinpoint and eliminate the short circuit.
+- **Success and Board Functionality:** After drilling, the board functioned as expected, allowing for continued progress and programming.
+
+### Workload and Persistence
+- **Time Investment:** Spent an entire night drilling into the boards to accurately identify and resolve the short circuit by myself.
+- **Purpose of Drilling:** Ensured that the board could still be programmed and utilized for further iterations, even if similar issues were encountered in subsequent versions. I was also able to add destructive testing to my resume.
+
+## Images of Drilled PCBs
+- ![Drilled PCB 1](https://media.discordapp.net/attachments/962889307931164742/1227299514117914734/PXL_20240409_073322874.jpg?ex=662bdb3e&is=662a89be&hm=4556c0765e6730dd9536d161e3232559996ffff453093253ad5d42ad529e4812&=&format=webp&width=309&height=411)
+- ![Drilled PCB 2](https://media.discordapp.net/attachments/962889307931164742/1227299514684280894/PXL_20240409_073321050.jpg?ex=662bdb3e&is=662a89be&hm=e3ad64fc59c6aeb5169fbe17af290db638b10798829fd66da2135fb5e6cb10d1&=&format=webp&width=309&height=411)
+- ![Drilled PCB 3](https://media.discordapp.net/attachments/962889307931164742/1227299515246051328/PXL_20240409_073324853.jpg?ex=662bdb3e&is=662a89be&hm=cca35cebc9379e3499d69234f807f8d59afa1d76bd6ad8293f55e2a4c8691ac7&=&format=webp&width=309&height=411)
+
+## Board Replacement and Progress - 4/11-4/13
+
+### New Board Arrival
+- **Replacement Boards:** Received the new set of boards, which did not have the short circuit issue found in the previous batch. Made final iteration of board and made sure they passed DRC.
+
+### Personal Break and Decompression
+- **Time Off:** Took a few days off to decompress and relax after the challenging experience of destructive testing being completely pointless. Did other coursework.
+
+### Team Progress
+- **Board Functionality:** The team successfully managed to get the new boards recognized by the development board and initiated programming tasks.
+
+### Note on Progress
+- **Alleged Programming Success:** While programming was reportedly successful, further verification and testing may be required to confirm full functionality and reliability.
 
 
+## Drive Train and Scanning Mechanism Redesign -4/14-4/16
+
+### Redesign Process
+- **Drive Train and Scanning Mechanism:** Undertook another redesign iteration for improved functionality and performance.
+- **3D Printing and Machining:** Utilized both 3D printing and manual machining through wood by hand drilling to create the redesigned components. Team lost access to MEB due to accidentally leaving a hot glue gun on.
+
+### Hall Effect Module Holder Design
+- **Design Task:** Created a holder specifically designed to accommodate the Hall Effect module, ensuring proper positioning and functionality within the system.
+
+### Progress Update
+- **Completed Tasks:** Successfully completed the redesign of the drive train/scanning mechanism and the design of the Hall Effect module holder.
+
+## Next Steps
+- **Integration:** Proceed with integrating the redesigned components into the overall system.
+- **Testing:** Conduct initial testing to evaluate the performance and functionality of the redesigned drive train and scanning mechanism.
+
+## Drive Train and Scanning Mechanism Redesign (again) -4/18-4/21
+
+### Redesign Details
+- **Drive Train and Scanning Mechanism:** Conducted another round of redesigning to enhance performance and functionality.
+- **Integration of Ball Bearing:** Incorporated a ball bearing into the design to reduce friction during the turning of the LiDAR system.
+- **Space Accommodation for Hall Effect Module:** Ensured sufficient space and compatibility for the Hall Effect module within the redesigned components.
+
+### Progress Update
+- **Redesign Completion:** Successfully completed the redesign of the drive train/scanning mechanism, incorporating the ball bearing and accommodating space for the Hall Effect module.
+
+### Next Steps
+- **Integration Testing:** 3-D print models and make full assembly. Find a different place to 3-D print parts.
 
 
+## 3D Printing and Exam Day - 4/21-4/22
 
+### 3D Printing Tasks
+- **Part Production:** Utilized 3D printing technology to fabricate parts required for the project's assembly.
+
+### Academic Commitment
+- **ECE 434 Exam:** Had an exam for ECE 434, which required focus and preparation, leading to limited time available for completing the assembly.
+
+### Progress Update
+- **Part Production:** Successfully completed the 3D printing tasks, generating the necessary components for the project.
+
+### Next Steps
+- **Assembly Completion:** Plan to resume work and complete the assembly of the project once academic commitments, such as exams, are successfully addressed.
+
+
+## Physical Assembly Success and Role Reflection - 4/23
+
+### Seeing-Eye-Hat Assembly
+- **Completion:** Successfully finished the physical assembly for the seeing-eye-hat project.
+- **First-Time Success:** The assembled project worked on the first try, indicating successful implementation.
+
+### Role Reflection
+- **Mechanical Engineering Contributions:** Recognized that my contributions to the project's physical assembly were more aligned with mechanical engineering principles rather than electrical engineering. Felt sad about it honestly.
+
+### Group Challenges
+- **PCB Issues:** The group encountered persistent challenges with the PCB, leading to difficulties in getting it to work.
+- **Acceptance of Setbacks:** Accepted the reality of not achieving PCB-related milestones due to personal mistakes and challenges with supply chains.
+
+
+## PCB Challenges and Acceptance of Setbacks - 4/24
+
+### PCB Return and Non-Functionality
+- **PCB Parts Returned:** The parts for the PCB were returned to the sender due to ongoing issues.
+- **Lack of Success:** Despite efforts, none of the PCB attempts yielded functional results.
+- **Acknowledgement of Challenges:** Accepted the situation where personal mistakes and external factors, such as supply chain issues, hindered progress.
+
+### Adaptation and Resilience
+- **Learning Experience:** Viewed the setbacks as learning opportunities to improve processes and mitigate future challenges.
+- **Resilience:** Maintained a positive outlook despite the setbacks and continued to focus on other aspects of the project.
+
+## Next Steps
+- **Adaptation and Learning:** Plan to learn from the PCB challenges and adapt strategies for future projects.
+- **Focus Shift:** Shift focus towards other project components and tasks to ensure overall progress and success.
