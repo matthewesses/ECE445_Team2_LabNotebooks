@@ -92,6 +92,24 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 - **Resume Development:** Plan to resume full development activities and focus on completing the Hall Effect sensor array design and synchronization with motor control for the LiDAR system.
 
 
+## February, Radio silence
+No sufficient progress was made. Waited for partners to finish their portions of the project and then waited for updates
+
+## STM32F401 Programming and PCB Routing - 3/6-3/8
+
+
+### STM32F401 Programming
+- **Learning Process:** Invested time in learning how to program the STM32F401 microcontroller effectively.
+- **Circuit Enhancement:** Added an SWD header and a Micro-USB connector to the circuit diagram to facilitate programming and communication with the microcontroller.
+
+### PCB Routing Responsibility
+- **Team Contribution:** Took on the responsibility of routing the Printed Circuit Board (PCB) for our project.
+- **Rework for Two-Layer Routing:** Modified the connections on the microcontroller to enable routing on two layers, ensuring efficient and optimized PCB design.
+
+### Progress Visualization
+- **Figures:**
+    ![Before and After](https://media.discordapp.net/attachments/971438288512614480/1233270334279651348/image.png?ex=662c7c00&is=662b2a80&hm=c2d4e45891ccebceff7d672e9232d06af4c499fd40a538a89d125df3abbe6e8a&=&format=webp&quality=lossless)
+
 
 
 
