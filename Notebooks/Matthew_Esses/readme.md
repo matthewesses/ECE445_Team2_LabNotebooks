@@ -21,7 +21,7 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
   - Potential user discomfort.
   - Lack of practical usefulness.
 
-## Conceptual Diagram
+### Conceptual Diagram
 ![Wearable LiDAR Concept](https://cdn.discordapp.com/attachments/901495322310766633/1233264870749900892/image.png?ex=662c76ea&is=662b256a&hm=93154861a65bb14b6f8007802ecd6a6096c15eecfef7ae5cb52b7c3057570c84&)
 
 ## Engineering Notebook Entry - 1/16
@@ -37,7 +37,7 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 
 ![Figure 3: Light Absorption Via the Atmosphere](https://cdn.discordapp.com/attachments/901495322310766633/1233266273429884998/image.png?ex=662c7838&is=662b26b8&hm=bedc095843634cfde592979ec9894b942f79face59f694d0e6614c5d61b28a31&)
 
-## Collaboration and Guidance
+### Collaboration and Guidance
 - **Office Hours with Jason (Head Lab TA):** Discussed the project requirements for building a LiDAR sensor using a time-of-flight ASIC.
 - **Recommendations:**
   - Use of the STM32F401 microcontroller.
@@ -177,6 +177,7 @@ The PCB took a very long time to arrive. We decided on using either a stepper mo
 - **Integration:** Proceed with integrating the redesigned components into the overall system.
 - **Testing:** Conduct initial testing to evaluate the performance and functionality of the redesigned drive train and scanning mechanism.
 
+### First Iteration of Physical Assembly
 ![Assembly 1 View 1](https://media.discordapp.net/attachments/1197376949950107669/1230377507568746538/rn_image_picker_lib_temp_8f6d4d88-b9f5-497e-8acd-89c2255088a6.jpg?ex=662c81d9&is=662b3059&hm=3b27238982f99c61448fd8ae020415bb1b65920da1fbcfe211f789f06767369b&=&format=webp&width=185&height=411)
 ![Assembly 1 View 2](https://media.discordapp.net/attachments/1197376949950107669/1230377508097097748/rn_image_picker_lib_temp_8e3244b8-3de0-4dd3-83dc-756b2b1d47fd.jpg?ex=662c81d9&is=662b3059&hm=f7d48a0da2173e5aa6a0a90f07470874b590f48619b0170418af0ef44ad04ee4&=&format=webp&width=185&height=411)
 
@@ -193,6 +194,7 @@ The PCB took a very long time to arrive. We decided on using either a stepper mo
 ### Next Steps
 - **Integration Testing:** 3-D print models and make full assembly. Find a different place to 3-D print parts.
 
+### CAD Assebly
 ![Cad Assembly 2 View 1](https://media.discordapp.net/attachments/1197377121027375245/1233282348263407686/image.png?ex=662c8731&is=662b35b1&hm=289482aa16ef47bd315dd31aad985573d35b32d1c0437f43e0a09015df9a32ce&=&format=webp&quality=lossless&width=444&height=411)
 ![Cad Assembly 2 View 2](https://media.discordapp.net/attachments/1197377121027375245/1233282811335675904/image.png?ex=662c879f&is=662b361f&hm=26965bdddc74ad049f282757a694c084bd48d647b30a0c44eb1de32b6074da1a&=&format=webp&quality=lossless&width=389&height=411)
 
@@ -210,6 +212,7 @@ The PCB took a very long time to arrive. We decided on using either a stepper mo
 ### Next Steps
 - **Assembly Completion:** Plan to resume work and complete the assembly of the project once academic commitments, such as exams, are successfully addressed.
 
+### Partial 3D prints
 ![Partial 3D prints](https://media.discordapp.net/attachments/1197377121027375245/1232113090431291402/20240422_151542.png?ex=662c3abc&is=662ae93c&hm=dcfb52f57cec7e2062b8405c81ef800bfbb4159c328976cef650e6a77c2c14ae&=&format=webp&quality=lossless)
 
 ## Physical Assembly Success and Role Reflection - 4/23
@@ -225,6 +228,7 @@ The PCB took a very long time to arrive. We decided on using either a stepper mo
 - **PCB Issues:** The group encountered persistent challenges with the PCB, leading to difficulties in getting it to work.
 - **Acceptance of Setbacks:** Accepted the reality of not achieving PCB-related milestones due to personal mistakes and challenges with supply chains.
 
+### Completed physical assembly and project
 ![Complete Assembly 2 View 1](https://media.discordapp.net/attachments/1070112306823958610/1233118103425122385/20240424_221110.png?ex=662bee3a&is=662a9cba&hm=d693c4752a953440289babb8768e0dcaf08ad5186c3dbfdfa54f236d2c232f93&=&format=webp&quality=lossless&width=411&height=411)
 ![Comblete Assembly 2 View 2](https://media.discordapp.net/attachments/971438288512614480/1233118233054416957/20240424_220418.jpg?ex=662bee58&is=662a9cd8&hm=54d1b87562520b22ffa557f4ed81007f87df2ed5e3cb1f65d883c53819c6a090&=&format=webp&width=411&height=411)
 
@@ -238,9 +242,5 @@ The PCB took a very long time to arrive. We decided on using either a stepper mo
 ### Adaptation and Resilience
 - **Learning Experience:** Viewed the setbacks as learning opportunities to improve processes and mitigate future challenges.
 - **Resilience:** Maintained a positive outlook despite the setbacks and continued to focus on other aspects of the project.
-
-## Next Steps
-- **Adaptation and Learning:** Plan to learn from the PCB challenges and adapt strategies for future projects.
-- **Focus Shift:** Shift focus towards other project components and tasks to ensure overall progress and success.
-
+### Bitter Defeat at the hands of USPS
 ![Bitter Defeat at the hands of USPS](https://media.discordapp.net/attachments/1197376949950107669/1233090498843902013/image.png?ex=662c7d44&is=662b2bc4&hm=f0a02b5e31e42e7688cf43e1eb8a5753b22415bd3f7502a491a5efa14c5e855c&=&format=webp&quality=lossless&width=866&height=411)
