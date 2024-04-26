@@ -62,10 +62,36 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 ### Design Enhancement and Communication
 - **Physical Design Sketch:** Shared a rough sketch of the physical design with the team, detailing key components and layout.
 - **CAD Modeling:** Created a professional CAD model for the design, documented in the design document.
-  - *Note:* Unable to include CAD images due to uncertainty regarding usage permissions from the design document.
 
 ### Functional Enhancements
 - **Motor Intensity Control:** Planned to implement motor intensity control using haptic feedback and Pulse Width Modulation (PWM) techniques for enhanced user interaction.
+
+## 1/18
+
+### Meeting with team for first time
+- Met with team for the first time on 1/18, explained more of the ideas verbally, got feedback, planned roles and ways forward
+
+## 1/24
+
+### LiDAR Sensor Testing
+- **Data Acquisition:** Focused on obtaining readings from the LiDAR sensor.
+- **Datasheet Reference:** Utilized a datasheet for the LiDAR sensor available within the class resources.
+- **Team Collaboration:** Tested the LiDAR sensor on an Arduino development board as a team, verifying its accuracy and performance against the datasheet specifications.
+
+### Exploration of Hall Effect Sensors
+- **Research and Learning:** Delved into understanding the functionality of Hall Effect sensors.
+- **Initial Progress:** Began designing a Hall Effect sensor array to determine the orientation of the LiDAR sensor and synchronize it with the haptic feedback motors.
+
+### Productivity Challenges
+- **Personal Impact:** Experienced a period of decreased productivity for several weeks due to personal reasons.
+
+### Ongoing Development
+- **Hall Effect Sensor Array Design:** Continued work on designing the Hall Effect sensor array for angle detection of the LiDAR sensor and its integration with the haptic feedback motors.
+
+### Next Steps
+- **Resume Development:** Plan to resume full development activities and focus on completing the Hall Effect sensor array design and synchronization with motor control for the LiDAR system.
+
+
 
 
 
