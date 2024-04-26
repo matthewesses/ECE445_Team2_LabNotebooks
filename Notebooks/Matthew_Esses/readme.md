@@ -95,20 +95,25 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 ## February, Radio silence
 No sufficient progress was made. Waited for partners to finish their portions of the project and then waited for updates
 
-## STM32F401 Programming and PCB Routing - 3/6-3/8
-
+## STM32F401 Programming and PCB Routing - 3/6-3/13
 
 ### STM32F401 Programming
-- **Learning Process:** Invested time in learning how to program the STM32F401 microcontroller effectively.
-- **Circuit Enhancement:** Added an SWD header and a Micro-USB connector to the circuit diagram to facilitate programming and communication with the microcontroller.
+- **Learning Phase:** Acquired knowledge and skills in programming the STM32F401 microcontroller.
+- **Circuit Enhancements:** Added an SWD header and Micro-USB connector to the circuit diagram for enhanced connectivity and programming capabilities.
 
-### PCB Routing Responsibility
-- **Team Contribution:** Took on the responsibility of routing the Printed Circuit Board (PCB) for our project.
-- **Rework for Two-Layer Routing:** Modified the connections on the microcontroller to enable routing on two layers, ensuring efficient and optimized PCB design.
+### PCB Routing
+- **Responsibility Assignment:** Took on the task of routing the PCB for the project.
+- **Layer Consideration:** Ensured that reworking the microcontroller connections allowed for efficient routing on two layers.
 
-### Progress Visualization
-- **Figures:**
-    ![Before and After](https://media.discordapp.net/attachments/971438288512614480/1233270334279651348/image.png?ex=662c7c00&is=662b2a80&hm=c2d4e45891ccebceff7d672e9232d06af4c499fd40a538a89d125df3abbe6e8a&=&format=webp&quality=lossless)
+### Team Collaboration and Quality Control
+- **PCB Review:** Checked and verified the PCB design for any design violations, collaborating with team members Mitchell and Shreya.
+- **Ordering Process:** Assisted in the order placement for the PCB board, handled by team member Shreya.
+
+### Current Progress and Next Steps
+- **Ongoing Work:** Waiting for completion of I2C integration with the STM32 dev board by Shreya to proceed with further physical design work.
+- **Control Flow Mapping:** Mapped out the control flow for the control unit's programming, ensuring a clear understanding of the system's functionality.
+- **Upcoming Tasks:** Deciding on off-board components for the half-wave rectifier and voltage divider for the Hall Effect sensors, focusing on low power consumption considerations.
+
 
 
 
