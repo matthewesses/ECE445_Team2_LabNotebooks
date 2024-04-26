@@ -98,7 +98,7 @@ No sufficient progress was made. Waited for partners to finish their portions of
 ## STM32F401 Programming and PCB Routing - 3/6-3/13
 
 ### STM32F401 Programming
-- **Learning Phase:** Acquired knowledge and skills in programming the STM32F401 microcontroller.
+- **Learning Phase:** Acquired knowledge for programming the STM32F401 microcontroller.
 - **Circuit Enhancements:** Added an SWD header and Micro-USB connector to the circuit diagram for enhanced connectivity and programming capabilities.
 
 ### PCB Routing
