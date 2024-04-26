@@ -58,6 +58,7 @@ void loop() {
     // if lidar measurement <= 150, write high signal to motor
     if (analogRead(DOPPLER_PIN) == HIGH)
     {
+      Serial.println("Doppler on!");
       analogWrite(A4, 255);
     }
     int lidarDist = getLidarDistance();
