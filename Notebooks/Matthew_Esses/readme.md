@@ -48,5 +48,25 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 
 
 
+## 1/17
+
+### Sensor Selection and Additional Features
+- **Design Feasibility:** After discussions with professors, it was determined that designing our own sensor was not feasible, leading us to opt for an off-the-shelf solution.
+- **Incorporation of Doppler Radar:** To enhance functionality, a Doppler Radar was added to provide data below eye-level, particularly for emergency collision prevention purposes.
+
+### Project Research and Documentation
+- **Review of Previous Projects:** Studied projects from previous years to gain insights and inspiration.
+- **Faculty Consultations:** Addressed questions from professors to ensure project alignment and feasibility.
+- **Submission of RFA:** Submitted the Request for Approval (RFA) after completing a rough sketch of the physical design, which was shared with the team.
+
+### Design Enhancement and Communication
+- **Physical Design Sketch:** Shared a rough sketch of the physical design with the team, detailing key components and layout.
+- **CAD Modeling:** Created a professional CAD model for the design, documented in the design document.
+  - *Note:* Unable to include CAD images due to uncertainty regarding usage permissions from the design document.
+
+### Functional Enhancements
+- **Motor Intensity Control:** Planned to implement motor intensity control using haptic feedback and Pulse Width Modulation (PWM) techniques for enhanced user interaction.
+
+
 
 
