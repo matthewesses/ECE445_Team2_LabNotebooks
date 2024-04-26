@@ -11,6 +11,7 @@ int motorPins[] = {A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15};
 
 
 #define HALL_EFFECT_PIN 8
+#define DOPPLER_PIN A0
 
 const int MOTOR_PIN_IN1 = 13;
 const int MOTOR_PIN_IN2 = 12;
@@ -30,7 +31,9 @@ void setup() {
     pinMode(motorPins[i], OUTPUT);
     analogWrite(motorPins[i], LOW);
   }
-//  analogWrite(A5, 255);
+  pinMode(DOPPLER_PIN, INPUT);
+  pinMode(HALL_EFFECT_PIN, INPUT);
+  pinMode(A4, OUTPUT);
   
   stepper.connectToPins(MOTOR_PIN_IN1, MOTOR_PIN_IN2, MOTOR_PIN_IN3, MOTOR_PIN_IN4);
   stepper.setSpeedInStepsPerSecond(256);
@@ -43,7 +46,6 @@ void setup() {
   }
   Serial.println("Done :)");
   delay(1000);
-//  pinMode(A6, OUTPUT);
 }
 
 void loop() {
@@ -54,6 +56,10 @@ void loop() {
   {
     stepper.moveRelativeInSteps(2048/12);
     // if lidar measurement <= 150, write high signal to motor
+    if (analogRead(DOPPLER_PIN) == HIGH)
+    {
+      analogWrite(A4, 255);
+    }
     int lidarDist = getLidarDistance();
     Serial.println("Distance: " + String(lidarDist) + "cm");
     if (lidarDist <= 150)
