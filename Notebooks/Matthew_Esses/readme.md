@@ -114,6 +114,11 @@ No sufficient progress was made. Waited for partners to finish their portions of
 - **Control Flow Mapping:** Mapped out the control flow for the control unit's programming, ensuring a clear understanding of the system's functionality.
 - **Upcoming Tasks:** Deciding on off-board components for the half-wave rectifier and voltage divider for the Hall Effect sensors, focusing on low power consumption considerations.
 
+### Pictures of circuit CAD
+![Pictures of circuit CAD](https://media.discordapp.net/attachments/1197376982317531288/1215443138504826910/image.png?ex=662c3aa2&is=662ae922&hm=74c249614f1b98bfd1344c7f38b261e6a48dd53405fa132a24096d51be5d3448&=&format=webp&quality=lossless&width=197&height=410)
+![pic2](https://media.discordapp.net/attachments/1197376982317531288/1215815857985552404/image.png?ex=662c4441&is=662af2c1&hm=e0e07640fc06e48f00ab2797ed1eccef04b371b52cb9b9995357d4049cb21023&=&format=webp&quality=lossless&width=739&height=411)
+
+
 ## 3/14-4/05 WAITING FOR THE PCB!!!
 
 The PCB took a very long time to arrive. We decided on using either a stepper motor or the motor from ECE 110 at this time.
