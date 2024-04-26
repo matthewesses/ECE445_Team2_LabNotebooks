@@ -45,7 +45,7 @@ void setup() {
     stepper.moveRelativeInSteps(1);
   }
   Serial.println("Done :)");
-  delay(1000);
+  delay(2000);
 }
 
 void loop() {
@@ -54,27 +54,29 @@ void loop() {
   int loopCount = 0;
   while(loopCount < 12)
   {
-    stepper.moveRelativeInSteps(2048/12);
+    stepper.moveRelativeInSteps(2048/24);
     // if lidar measurement <= 150, write high signal to motor
-    if (analogRead(DOPPLER_PIN) == HIGH)
+    if (digitalRead(DOPPLER_PIN) == 0)
     {
       Serial.println("Doppler on!");
-      analogWrite(A4, 255);
+      analogWrite(motorPins[0], 255);
+      delay(700);
+      analogWrite(motorPins[0], LOW);
     }
     int lidarDist = getLidarDistance();
     Serial.println("Distance: " + String(lidarDist) + "cm");
     if (lidarDist <= 150)
     {
       Serial.println("The motor should be on: " + String(loopCount));
-      delay(1000);
+//      delay(1000);
       analogWrite(motorPins[loopCount], 255);
-      delay(1000);
+      delay(700);
     }
     analogWrite(motorPins[loopCount], LOW);
     loopCount++;
-    delay(1000);
+    delay(700);
   }
-  delay(1000);
+//  delay(1000);
   
 }
 
