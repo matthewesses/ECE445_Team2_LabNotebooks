@@ -122,3 +122,11 @@ Notes on Mock Presentations:
 - include videos/pictures towards the end
 - Challenges and Successes slide is v important
 - Tell a story about an actual progression of the project.
+
+# 4/26
+- Had our final demo today and it went well. It was unfortunate that we were not able to get our PCB to work, but the Arduino
+  Mega came through for us big time.
+- Really happy that my final code came out well. We were also able to fix it due to the 2:1 gear ratio with the stepper motor,
+  which means that the LiDAR actually makes two rotations when the stepper gear makes one. Therefore, in order for the LiDAR
+  to complete one revolution in 12 steps, the stepper must complete one in 24 steps.
+- Hence code was changed from 2048/12 to 2048/24 for the stepper motor.
