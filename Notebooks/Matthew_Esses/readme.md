@@ -83,7 +83,7 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 - **Initial Progress:** Began designing a Hall Effect sensor array to determine the orientation of the LiDAR sensor and synchronize it with the haptic feedback motors.
 
 ### Productivity Challenges
-- **Personal Impact:** Experienced a period of decreased productivity for several weeks due to personal reasons.
+- **Personal Impact:** Experienced a period of decreased productivity for several weeks going forward due to personal reasons.
 
 ### Ongoing Development
 - **Hall Effect Sensor Array Design:** Continued work on designing the Hall Effect sensor array for angle detection of the LiDAR sensor and its integration with the haptic feedback motors.
@@ -92,8 +92,10 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 - **Resume Development:** Plan to resume full development activities and focus on completing the Hall Effect sensor array design and synchronization with motor control for the LiDAR system.
 
 
-## February, Radio silence
-No sufficient progress was made. Waited for partners to finish their portions of the project and then waited for updates
+##  Death of DeMux 2/5
+
+### DeMux death
+- **Demultiplexer no longer used:** Partner Mitchell was strongly convinced using a demultiplexer to run PDM to a motor and using an ATMEGA328 was not viable and could not work. I strongly disagreed, but let it go because I was experiencing bad personal circumstances. Edit 4/29: in hindsight, terrible decision to let this go, partner Shreya took my side on this and it likely would have made the entire project more successful and we would have had next to no problems in programming due to more reliable documentation and course staff assistance for the ATMEGA. 
 
 ## STM32F401 Programming and PCB Routing - 3/6-3/13
 
