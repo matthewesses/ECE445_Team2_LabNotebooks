@@ -95,7 +95,7 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 ##  Death of DeMux 2/5
 
 ### DeMux death
-- **Demultiplexer no longer used:** Partner Mitchell was strongly convinced using a demultiplexer to run PDM to a motor and using an ATMEGA328 was not viable and could not work. I strongly disagreed, but let it go because I was experiencing bad personal circumstances. Edit 4/29: in hindsight, terrible decision to let this go, partner Shreya took my side on this and it likely would have made the entire project more successful and we would have had next to no problems in programming due to more reliable documentation and course staff assistance for the ATMEGA. 
+- **Demultiplexer no longer used:** Partner Mitchell was strongly convinced using a demultiplexer to run PDM to a motor and using an ATMEGA328 was not viable and could not work. I strongly disagreed, but let it go because I was experiencing bad personal circumstances. Edit 4/29: in hindsight, terrible decision to let this go, partner Shreya took my side on this and it likely would have made the entire project more successful and we would have had next to no problems in programming due to more reliable documentation and course staff assistance for the ATMEGA. There were never any sources to back up the claim of it not working, but I digress.
 
 ## STM32F401 Programming and PCB Routing - 3/6-3/13
 
