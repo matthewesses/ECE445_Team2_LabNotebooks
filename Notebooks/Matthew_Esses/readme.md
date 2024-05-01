@@ -95,7 +95,27 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 ##  Death of DeMux 2/5
 
 ### DeMux death
-- **Demultiplexer no longer used:** Partner Mitchell was strongly convinced using a demultiplexer to run PDM to a motor and using an ATMEGA328 was not viable and could not work. I strongly disagreed, but let it go because I was experiencing bad personal circumstances. Edit 4/29: in hindsight, terrible decision to let this go, partner Shreya took my side on this and it likely would have made the entire project more successful and we would have had next to no problems in programming due to more reliable documentation and course staff assistance for the ATMEGA. There were never any sources to back up the claim of it not working, but I digress.
+- **Demultiplexer no longer used:** Partner Mitchell was strongly convinced using a demultiplexer to run PDM to a motor and using an ATMEGA328 was not viable and could not work. I strongly disagreed, but let it go because I was experiencing bad personal circumstances. Edit 4/29: in hindsight, terrible decision to let this go, partner Shreya took my side on this and it likely would have made the entire project more successful and we would have had next to no problems in programming due to more reliable documentation and course staff assistance for the ATMEGA. There were never any sources to back up the claim of it not working for the proposed design, but I digress.
+
+## 2/12/24 Meeting 1 with Sanjana TA
+### What was accomplished
+- **Given Locker**
+- **Able to order parts**
+- **ordered parts**
+
+## 2/19/24 Meeting 2 with Sanjana TA
+### What was accomplished
+- **Discussed design progress and BOM**
+
+
+## 2/26/24 Meeting 3 with Sanjana TA
+### What was accomplished
+- **Meeting cancelled**
+
+## 3/4 Meeting 4 with Sanjana TA
+### What was accomplished
+- **we need to work on the CAD, last TA meeting of note before 3/25**
+
 
 ## STM32F401 Programming and PCB Routing - 3/6-3/13
 
@@ -121,9 +141,17 @@ Before the class officially began, Mitchell and I discussed the primary aim of o
 ![pic2](https://media.discordapp.net/attachments/1197376982317531288/1215815857985552404/image.png?ex=662c4441&is=662af2c1&hm=e0e07640fc06e48f00ab2797ed1eccef04b371b52cb9b9995357d4049cb21023&=&format=webp&quality=lossless&width=739&height=411)
 
 
+## 3/25 Meeting 5 with Sanjana TA
+### What was accomplished
+- **motioned to move accelerometer and we plan testing**
+
 ## 3/14-4/05 WAITING FOR THE PCB!!!
 
 The PCB took a very long time to arrive. We decided on using either a stepper motor or the motor from ECE 110 at this time.
+
+## 4/1 Meeting 6 with Sanjana TA
+### What was accomplished
+- **find back-up plans for if stuff does not work**
 
 ## 4/4 New scanning mechanism
 
