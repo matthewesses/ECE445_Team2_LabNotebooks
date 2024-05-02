@@ -111,6 +111,7 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - However, I will include all of the debugging processes I took. At the moment, the STM32 is able to detect the presence of the
   LiDAR over the I2C bus. No distances are being read through it though.
   ![unnamed](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/66e832c1-d52b-4d96-8d85-52a96c98d884)
+  
 
 ## 3/28: Distance Code COMPLETED
 [Getting Distances with Wire Library on Arduino](https://github.com/PulsedLight3D/LIDARLite_Basics/blob/master/Arduino/LIDARLite_Wire_Library_GetDistance_ContinuousRead/LIDARLite_Wire_Library_GetDistance_ContinuousRead.ino)
