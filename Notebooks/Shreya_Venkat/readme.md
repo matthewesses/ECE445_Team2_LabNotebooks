@@ -257,6 +257,11 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 ## 4/24: Testing my code
 - Finished construction of the project, so I could now test my code
 - CODE WORKS YAY. we're able to get readings from all directions that the LiDAR faces.
+- Final construction of project:
+
+  ![pic2](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/b654ebfa-f6c5-4670-9cc9-7fb59e24eef2)
+  <img width="641" alt="Screen Shot 2024-05-02 at 2 02 48 PM" src="https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/ba01bbd6-17e4-4ddb-9454-545172cee127">
+
 
 ## 4/25
 - Did a mock presentation run today, and compiled notes:
