@@ -165,6 +165,8 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 
   ![0693W00000KZbPXQA1](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/e75fa9d5-3bd2-458f-ae0e-500c7f344298)
 
+- In our case, we did not need to worry about the right hand side since we would go through the Nucleo to the PCB. Then we
+  only needed the left hand side to correctly connect to Nucleo, and then we would connect the debug header to the PCB.
 - Installed STM32Cube Programmer so that Arduino can upload the code to the external PCB via SWD.
 - Upload works: sometimes we get issues with inability to erase memory, so that is resolved by manually pulling the NRST
   pin down to ground.
@@ -179,8 +181,8 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   So the BOOT0 pin must go to ground, and we're planning to set BOOT1 to ground as well.
 
 ## 4/13: Need a backup plan if PCB doesn't work
-- We need to resolder the STM32 on a different board.
-- In the meantime, we will test with our development baord. I will start writing code to turn on the correct motors
+- We need to resolder the STM32 on a different board. And upload isn't working due to "Failed to Erase Memory" error.
+- In the meantime, we will test with our development board. I will start writing code to turn on the correct motors
   corresponding to the hall effect sensors.
 - Accounting for two different versions: one on the external PCB and another on the dev board.
 - I wrote two sets of code: one for the PCB, and another for our backup dev board.
@@ -238,18 +240,21 @@ Measuring wall distances:
 5. actual - 50 cm, lidar - 49 cm
 6. actual - 30 cm, lidar - 33 cm
 
+- Since all of these measurements are within 10% of the actual distances, we can confidently say that the LiDAR satisfies its
+  corresponding requirement + verification in our tables.
+
 ## 4/24: Testing my code
 CODE WORKS YAY
 
 ## 4/25
-Notes on Mock Presentations:
-- Do not read verbatim off the slides. Don't overwhelm them with content
-- Understand the purpose of every slide included.
-- Conclusions do not need to be long: make it punchy
-- Take a pause if needed
-- include videos/pictures towards the end
-- Challenges and Successes slide is v important
-- Tell a story about an actual progression of the project.
+- Did a mock presentation run today, and compiled notes:
+  - Do not read verbatim off the slides. Don't overwhelm them with content
+  - Understand the purpose of every slide included.
+  - Conclusions do not need to be long: make it punchy
+  - Take a pause if needed
+  - include videos/pictures towards the end
+  - Challenges and Successes slide is v important
+  - Tell a story about an actual progression of the project.
 
 ## 4/26
 - Had our final demo today and it went well. It was unfortunate that we were not able to get our PCB to work, but the Arduino
