@@ -43,13 +43,25 @@
 ## 2/26: TA Meeting Cancelled
 - It is the week of design reviews, so we are not having a TA meeting today.
 - We are presenting on Wednesday, 5 pm. Continuing work on the presentation.
+- Varik and Matt handled the visual aid and CAD layout for the project.
+  **Visual Aid:** 
+  
+  ![pic5](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/6d57736b-252b-44e5-b57f-6e54949dcc54)
 
+  **CAD Diagram:**
+
+  ![unnamed (2)](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/61a344f6-bcff-4730-8568-17cdbaa0d371)
+
+  
 ## 2/28: Design Review
 - We are hoping to not have to use the ATMega in our project, as we believe the STM32 should be enough, and will greatly simplify
   the control unit. Explained that it was the controller that had enough pins to meet our needs.
 - We had all the circuit diagrams finished by this time. In terms of project division, I will be responsible for the control unit
   and the LiDAR on Imaging, Matt will take scanning and hall effect, and Varik will handle power. All other responsibilites can
   be handled by everyone as required.
+  **Block diagram:**
+  
+  ![pic6](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/21e6c84e-1c71-428e-b07f-9ab57dcf5fc8)
 
 ## 3/4: Regular TA Meeting #3
 - This was the last meeting before spring break. We are disappointed that we were not able to get in a first round PCB, but
@@ -191,6 +203,9 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - Wrote two more sets of code: combined LiDAR functionality with the hall effect sensor and motor code for both versions.
 - Everything has been uploaded to Github in my notebook: will also upload to the code folder in the main repo.
 [Arrays w/Arduino IDE](https://docs.arduino.cc/built-in-examples/control-structures/Arrays/)
+- Current PCB layout:
+
+  ![pic 3](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/e29ffc9c-aad4-4d80-814c-66fb1c195ed8)
 
 ## 4/14: Pivoting to Arduino Mega 2560
 - The Arduino Mega came in today, and we are able to get distance measurements from the LiDAR with it.
@@ -212,7 +227,10 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   the magnet goes over it and it is detected on the Arduino's serial monitor. Another one is not consistently detected by the
   magnet.
 - We believe that the magnets may not be aligning correctly with the hall effect sensors as they are not in a perfect circle.
+- Current Hall Effect Layout:
   
+  ![pic4](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/6c109502-bdcf-4c4a-a464-14ecaf731382)
+
 ## 4/19: Alternate Idea: Implementing Interrupts
 - We started testing interrupts with one of the hall effect sensors. The code itself is able to detect interrupts, save for
   potential delays with Arduino printing the corresponding print statement.
@@ -286,6 +304,10 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 ## 4/29
 - Went through a dry run of the final presentation. Will change the slide with my code to be a flowchart instead if we have time.
 - Attended a peer review for the Pancake Flipper project. It gave me a good idea of what to expect for our own presentation.
+- Block Diagram has been heavily modified:
+  
+  ![pic7](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/3ed87180-1a0a-4dd6-b089-79f05479a74a)
+
 
 ## 4/30
 - Final presentation finished! It wasn't perfect, and some of our slides were jumbled. But I believe we did our best given the
