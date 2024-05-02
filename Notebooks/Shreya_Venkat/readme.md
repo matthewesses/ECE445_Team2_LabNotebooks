@@ -44,8 +44,16 @@
 - It is the week of design reviews, so we are not having a TA meeting today.
 - We are presenting on Wednesday, 5 pm. Continuing work on the presentation.
 
+## 2/28: Design Review
+- We are hoping to not have to use the ATMega in our project, as we believe the STM32 should be enough, and will greatly simplify
+  the control unit. Explained that it was the controller that had enough pins to meet our needs.
+- We had all the circuit diagrams finished by this time. In terms of project division, I will be responsible for the control unit
+  and the LiDAR on Imaging, Matt will take scanning and hall effect, and Varik will handle power. All other responsibilites can
+  be handled by everyone as required.
+
 ## 3/4: Regular TA Meeting #3
-- This was the last meeting before spring break.
+- This was the last meeting before spring break. We are disappointed that we were not able to get in a first round PCB, but
+  ultimately hope that the second round will be good enough for our needs.
 
 ## 3/18: Attempt to get a reading from the LiDAR
 - The LiDAR is compatible with I2C, which we believe we can use to establish communication between it and the STM32.
@@ -70,6 +78,7 @@
 - Both of these lines are bi-directional.
 - Devices on the I2C bus are active low, so they need pull up resistors to force the devices to high (inactive).
 
+## 3/21: More I2C Research
 **I2C Data Transfer Protocol:** The steps are listed below:
 1. Start Condition: data line is low, clock line is high
 2. First 8 bits come in: first 7 - address of the slave to which data is being sent, last 1 - read/write. 0 = master writes to slave, 1 = master reads from slave
@@ -112,13 +121,21 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   LiDAR over the I2C bus. No distances are being read through it though.
   ![unnamed](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/66e832c1-d52b-4d96-8d85-52a96c98d884)
   
-
 ## 3/28: Distance Code COMPLETED
 [Getting Distances with Wire Library on Arduino](https://github.com/PulsedLight3D/LIDARLite_Basics/blob/master/Arduino/LIDARLite_Wire_Library_GetDistance_ContinuousRead/LIDARLite_Wire_Library_GetDistance_ContinuousRead.ino)
 - My original code was very close to the link above, but it helped identify the parts of my code that weren't working correctly.
 
 ## 4/1: Regular TA Meeting #6
+- Awaiting the delivery of second round PCBs, which is our first one. We need to focus on other subsystems in the meantime,
+  and have plans for if our PCB doesn't work.
+- Hoping that the third round (our second) will be on schedule, since we were able to fix those connections.
+
+## 4/8: Regular TA Meeting #7
 - Discussed STM32 soldering onto the board. The pins are incredibly small, so baking it is our best bet.
+
+## 4/9: Submitted Round 3 PCB
+- We ultimately separated this submission into two different boards: one for the power subsystem, and one for the control subsystem.
+- Hoping that this can allow us to isolate our subsystems, so that one board's performance will not affect the other's.
 
 ## 4/11: Attempting to program STM32F401
 - I learned that we can program the STM32 on our PCB with our development board via SWD. I mapped Vin, SWDIO, SWCLK, GND,
@@ -224,5 +241,10 @@ Notes on Mock Presentations:
 ## 4/30
 - Final presentation finished! It wasn't perfect, and some of our slides were jumbled. But I believe we did our best given the
   circumstances.
+- Began my work on the final report. I was responsible for the control and sensing subsystems, and took on the introduction, high
+  level requirements, and the abstract.
 
 ## 5/1
+- Continued work on the final report. Also made sure that all the references were cited in IEEE to the best of my ability.
+- Finished! I am happy with our team's performance this semester, though there were definitely some ups and downs with
+  getting the project to work. I believe we put out a good prototype.
