@@ -288,6 +288,9 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   circumstances.
 - Began my work on the final report. I was responsible for the control and sensing subsystems, and took on the introduction, high
   level requirements, and the abstract.
+- Created a flowchart for the software operation for easier understanding.
+
+![control unit di](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/619aaff8-c0b7-43e3-9c77-af5903132961)
 
 ## 5/1
 - Continued work on the final report. Also made sure that all the references were cited in IEEE to the best of my ability.
