@@ -107,7 +107,8 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   STM32CubeIDE is another platform we can use to program our microcontroller.
 
 **Current LiDAR setup with STM32 Nucleo:**
-   ![unnamed](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/66e832c1-d52b-4d96-8d85-52a96c98d884)
+
+![unnamed](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/66e832c1-d52b-4d96-8d85-52a96c98d884)
 
 ## 3/25: Regular TA Meeting #5
 - We removed the accelerometer and gyroscope from our project because we weren't able to integrate them well with the PCB.
@@ -115,6 +116,7 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   be great to have the code and results on there.
 
 **Current Code:**
+
   ![unnamed](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/bfc65185-53ec-4368-a4ef-45de034cf1b7)
 - According to the LiDAR datasheet, an initialization must be performed on the LiDAR before attempting to communicate with it,
   so I have included it in the code.
@@ -126,6 +128,7 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   scanner from [Adafruit](https://learn.adafruit.com/scanning-i2c-addresses/arduino).
 - When this step did not work, I checked by board connections and realized that my power pin was connected incorrectly.
 - The LiDAR can now be read over I2C! Screenshot of results:
+  
   ![unnamed2](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/31cea962-dd94-492a-8203-63564bb0d1d4)
 
 ## 3/27: Individual Progress Report
