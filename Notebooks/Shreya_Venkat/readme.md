@@ -102,6 +102,9 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - Starting work on Individual Progress Report. I hope that I'll be able to get I2C working by the deadline, because it would
   be great to have the code and results on there.
 
+## 3/26: Round 2 PCB Submitted
+- The board was edited to include connections missing from the previous board.
+
 ## 3/27: Individual Progress Report
 - I still do not have my program for getting LiDAR distances via I2C working. It will unfortunately not be able to make it
   onto the Individual Progress Report.
@@ -111,6 +114,9 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 ## 3/28: Distance Code COMPLETED
 [Getting Distances with Wire Library on Arduino](https://github.com/PulsedLight3D/LIDARLite_Basics/blob/master/Arduino/LIDARLite_Wire_Library_GetDistance_ContinuousRead/LIDARLite_Wire_Library_GetDistance_ContinuousRead.ino)
 - My original code was very close to the link above, but it helped identify the parts of my code that weren't working correctly.
+
+## 4/1: Regular TA Meeting #6
+- Discussed STM32 soldering onto the board. The pins are incredibly small, so baking it is our best bet.
 
 ## 4/11: Attempting to program STM32F401
 - I learned that we can program the STM32 on our PCB with our development board via SWD. I mapped Vin, SWDIO, SWCLK, GND,
@@ -211,3 +217,10 @@ Notes on Mock Presentations:
 
 ## 4/29
 - Went through a dry run of the final presentation. Will change the slide with my code to be a flowchart instead if we have time.
+- Attended a peer review for the Pancake Flipper project. It gave me a good idea of what to expect for our own presentation.
+
+## 4/30
+- Final presentation finished! It wasn't perfect, and some of our slides were jumbled. But I believe we did our best given the
+  circumstances.
+
+## 5/1
