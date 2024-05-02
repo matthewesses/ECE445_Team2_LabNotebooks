@@ -161,6 +161,10 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 ## 4/11: Attempting to program STM32F401
 - I learned that we can program the STM32 on our PCB with our development board via SWD. I mapped Vin, SWDIO, SWCLK, GND,
   and NRST from the header on the dev board to the correct pins on our PCB.
+- Used the pinout below:
+
+  ![0693W00000KZbPXQA1](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/e75fa9d5-3bd2-458f-ae0e-500c7f344298)
+
 - Installed STM32Cube Programmer so that Arduino can upload the code to the external PCB via SWD.
 - Upload works: sometimes we get issues with inability to erase memory, so that is resolved by manually pulling the NRST
   pin down to ground.
