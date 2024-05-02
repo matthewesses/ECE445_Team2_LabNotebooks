@@ -44,6 +44,7 @@
 - It is the week of design reviews, so we are not having a TA meeting today.
 - We are presenting on Wednesday, 5 pm. Continuing work on the presentation.
 - Varik and Matt handled the visual aid and CAD layout for the project.
+  
   **Visual Aid:** 
   
   ![pic5](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/6d57736b-252b-44e5-b57f-6e54949dcc54)
@@ -59,6 +60,7 @@
 - We had all the circuit diagrams finished by this time. In terms of project division, I will be responsible for the control unit
   and the LiDAR on Imaging, Matt will take scanning and hall effect, and Varik will handle power. All other responsibilites can
   be handled by everyone as required.
+  
   **Block diagram:**
   
   ![pic6](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/21e6c84e-1c71-428e-b07f-9ab57dcf5fc8)
@@ -113,6 +115,7 @@ More information: [I2C on Arduino IDE](https://docs.arduino.cc/learn/communicati
 LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp-content/uploads/2017/03/LIDAR-Lite-v1-Datasheet.pdf)
 
 **Other Potentially Useful Links:**
+
 [STM32 Wiki for ECE 445](https://courses.engr.illinois.edu/ece445/wiki/#/)
 
 [I2C on STM w/CubeIDE](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
