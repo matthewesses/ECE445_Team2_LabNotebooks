@@ -126,6 +126,10 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - The board was edited to include connections missing from the previous board.
 - The first step to debug in my opinion was to make sure that the LiDAR could be detected over I2C. I used code for an I2C
   scanner from [Adafruit](https://learn.adafruit.com/scanning-i2c-addresses/arduino).
+- Snippet of code for understanding functionality:
+
+  ![unnamed (1)](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/99fe2bf6-b480-4d82-aae7-ac8b4b572499)
+
 - When this step did not work, I checked by board connections and realized that my power pin was connected incorrectly.
 - The LiDAR can now be read over I2C! Screenshot of results:
   
