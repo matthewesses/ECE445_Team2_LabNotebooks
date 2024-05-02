@@ -97,6 +97,11 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - I'm hoping that we can use Arduino IDE because I do not have extensive experience with embedded programming. However if required,
   STM32CubeIDE is another platform we can use to program our microcontroller.
 
+## 3/25: Regular TA Meeting #5
+- We removed the accelerometer and gyroscope from our project because we weren't able to integrate them well with the PCB.
+- Starting work on Individual Progress Report. I hope that I'll be able to get I2C working by the deadline, because it would
+  be great to have the code and results on there.
+
 ## 3/27: Individual Progress Report
 - I still do not have my program for getting LiDAR distances via I2C working. It will unfortunately not be able to make it
   onto the Individual Progress Report.
