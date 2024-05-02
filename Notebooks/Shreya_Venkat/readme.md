@@ -226,13 +226,20 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
     - This would now require only one hall effect sensor, and we need to know the RPM.
     - Once that is known, we can measure the time passed by, figure out the location, and map it to the hall effect sensor.
 
- ## 4/21: Haptic Motor Intensity Testing + Further Project Redesign
- - Connecting the haptic motors to our board and testing that all of them can work with high and low intensities.
- - Finished the first draft of full code that involves using a stepper motor and one hall effect sensor. The LiDAR is in
-   a separate function so that it can be polled once the stepper motor has moved.
+## 4/21: Haptic Motor Intensity Testing + Further Project Redesign
+- Connecting the haptic motors to our board and testing that all of them can work with high and low intensities.
+- This repository is for the motor we have on hand, and has some good examples we can use to verify that our motor
+  can work the way we want it to: [Stepper Motor](https://github.com/Stan-Reifel/TinyStepper_28BYJ_48)
+- Finished the first draft of full code that involves using a stepper motor and one hall effect sensor. The LiDAR is in
+  a separate function so that it can be polled once the stepper motor has moved.
+- The stepping will be very helpful, but we believe it is a little too slow for our 2 second high level requirement alone.
+  We will adjust the gears accordingly, which will be handled by Matt.
 
 ## 4/22: Getting LiDAR readings for our verification table
-Measuring wall distances:
+- Met with Varik today to get LiDAR measurements for our verification table. He held the tape measure while I wired up the LiDAR and
+  held it.
+  
+**Measuring wall distances:**
 1. actual - 200 cm, lidar - 207 cm
 2. actual - 150 cm, lidar - 154 cm
 3. actual - 102 cm, lidar - 109 cm
@@ -243,8 +250,13 @@ Measuring wall distances:
 - Since all of these measurements are within 10% of the actual distances, we can confidently say that the LiDAR satisfies its
   corresponding requirement + verification in our tables.
 
+## 4/23: Construction of Project
+- I handed over the LiDAR to Matt so that it could be mounted on our hat. It was integrated with the slip ring and the Arduino
+  Mega. Once construction was finished, I could test my code and verify that it works.
+
 ## 4/24: Testing my code
-CODE WORKS YAY
+- Finished construction of the project, so I could now test my code
+- CODE WORKS YAY. we're able to get readings from all directions that the LiDAR faces.
 
 ## 4/25
 - Did a mock presentation run today, and compiled notes:
