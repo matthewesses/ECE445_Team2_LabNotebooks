@@ -234,6 +234,10 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 ## 4/19: Alternate Idea: Implementing Interrupts
 - We started testing interrupts with one of the hall effect sensors. The code itself is able to detect interrupts, save for
   potential delays with Arduino printing the corresponding print statement.
+- **Interrupt Code:**
+
+  <img width="561" alt="Screen Shot 2024-05-02 at 2 28 18 PM" src="https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/c8463bce-478d-440f-9c65-3cf302c5de50">
+
 - However, the interrupts aren't always detected, which potentially indicates a problem with the connections and soldering of the
   board.
 - We decided to manually test all the sensors to make sure that they were all working as normal when we place a magnet over it.
