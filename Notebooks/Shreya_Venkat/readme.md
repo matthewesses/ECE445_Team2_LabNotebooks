@@ -81,7 +81,8 @@
 
 For more information on above two sections: [I2C Basics w/Arduino](https://www.youtube.com/watch?v=6IAkYpmA1DQ)
 
-## Connecting STM32 to LiDAR
+## 3/22: Moved on to implementing I2C on LiDAR
+**Connecting STM32 to LiDAR:**
 - Arduino IDE Setup: [STM32duino Reference](https://github.com/stm32duino/Arduino_Core_STM32#getting-started)
 - Goal: Get distance readings from LiDAR using I2C: master is STM32 and slave is LiDAR
 - Determine I2C pins on both devices and connect them. LiDAR: Pin 4 is SCL, Pin 5 is SDA
@@ -90,14 +91,23 @@ For more information on above two sections: [I2C Basics w/Arduino](https://www.y
 More information: [I2C on Arduino IDE](https://docs.arduino.cc/learn/communication/wire/)
 LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp-content/uploads/2017/03/LIDAR-Lite-v1-Datasheet.pdf)
 
-## Other Potentially Useful Links:
+**Other Potentially Useful Links:**
 [STM32 Wiki for ECE 445](https://courses.engr.illinois.edu/ece445/wiki/#/)
 [I2C on STM w/CubeIDE](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
+- I'm hoping that we can use Arduino IDE because I do not have extensive experience with embedded programming. However if required,
+  STM32CubeIDE is another platform we can use to program our microcontroller.
 
-## COMPLETED YAY: 3/28
+## 3/27: Individual Progress Report
+- I still do not have my program for getting LiDAR distances via I2C working. It will unfortunately not be able to make it
+  onto the Individual Progress Report.
+- However, I will include all of the debugging processes I took. At the moment, the STM32 is able to detect the presence of the
+  LiDAR over the I2C bus. No distances are being read through it though.
+
+## 3/28: Distance Code COMPLETED
 [Getting Distances with Wire Library on Arduino](https://github.com/PulsedLight3D/LIDARLite_Basics/blob/master/Arduino/LIDARLite_Wire_Library_GetDistance_ContinuousRead/LIDARLite_Wire_Library_GetDistance_ContinuousRead.ino)
+- My original code was very close to the link above, but it helped identify the parts of my code that weren't working correctly.
 
-# 4/11
+## 4/11: Attempting to program STM32F401
 - I learned that we can program the STM32 on our PCB with our development board via SWD. I mapped Vin, SWDIO, SWCLK, GND,
   and NRST from the header on the dev board to the correct pins on our PCB.
 - Installed STM32Cube Programmer so that Arduino can upload the code to the external PCB via SWD.
@@ -107,13 +117,13 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - However, program does not stay on the STM32 after it is disconnected from the dev board. We figured that it is due
   to the bootloader settings.
 
-# 4/12
+## 4/12: First PCB has shorts
 - R10 and R11 on the board with the STM32 are now shorted, and those resistors are connected to BOOT0 and BOOT1. We may
   drill that part of the board to get rid of the resistor problems.
 - Bootloader settings: I hypothesize that we need to load from flash memory, so we set BOOT0 to 0 and BOOT1 is a don't care.
   So the BOOT0 pin must go to ground, and we're planning to set BOOT1 to ground as well.
 
-# 4/13
+## 4/13: Need a backup plan if PCB doesn't work
 - We need to resolder the STM32 on a different board.
 - In the meantime, we will test with our development baord. I will start writing code to turn on the correct motors
   corresponding to the hall effect sensors.
@@ -125,10 +135,11 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - Everything has been uploaded to Github in my notebook: will also upload to the code folder in the main repo.
 [Arrays w/Arduino IDE](https://docs.arduino.cc/built-in-examples/control-structures/Arrays/)
 
-# 4/14
+## 4/14: Pivoting to Arduino Mega 2560
 - The Arduino Mega came in today, and we are able to get distance measurements from the LiDAR with it.
+- We need to make sure that all of the wiring in the project is secure.
 
-# 4/16
+## 4/16: Third Time with the STM32F401
 - We got our third STM on the board with Jason's help.
 - We will attempt to program this chip: connect BOOT0 and BOOT1 to GND, and use SWD with the STM32.
 - We're hoping to test the hall effect module with the Arduino.
@@ -139,13 +150,13 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   the hall effect sensors have gone low. 
 - Started work on Team Contract Fulfillment assignment.
 
-# 4/18
+## 4/18: Hall Effect Module Testing
 - We were able to test our hall effect sensors using the code that I wrote for it. One of the sensors consistently goes low when
   the magnet goes over it and it is detected on the Arduino's serial monitor. Another one is not consistently detected by the
   magnet.
 - We believe that the magnets may not be aligning correctly with the hall effect sensors as they are not in a perfect circle.
   
-# 4/19
+## 4/19: Alternate Idea: Implementing Interrupts
 - We started testing interrupts with one of the hall effect sensors. The code itself is able to detect interrupts, save for
   potential delays with Arduino printing the corresponding print statement.
 - However, the interrupts aren't always detected, which potentially indicates a problem with the connections and soldering of the
@@ -158,12 +169,12 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
     - This would now require only one hall effect sensor, and we need to know the RPM.
     - Once that is known, we can measure the time passed by, figure out the location, and map it to the hall effect sensor.
 
- # 4/21
+ ## 4/21: Haptic Motor Intensity Testing + Further Project Redesign
  - Connecting the haptic motors to our board and testing that all of them can work with high and low intensities.
  - Finished the first draft of full code that involves using a stepper motor and one hall effect sensor. The LiDAR is in
    a separate function so that it can be polled once the stepper motor has moved.
 
-# 4/22
+## 4/22: Getting LiDAR readings for our verification table
 Measuring wall distances:
 1. actual - 200 cm, lidar - 207 cm
 2. actual - 150 cm, lidar - 154 cm
@@ -172,10 +183,10 @@ Measuring wall distances:
 5. actual - 50 cm, lidar - 49 cm
 6. actual - 30 cm, lidar - 33 cm
 
-# 4/24
+## 4/24: Testing my code
 CODE WORKS YAY
 
-# 4/25
+## 4/25
 Notes on Mock Presentations:
 - Do not read verbatim off the slides. Don't overwhelm them with content
 - Understand the purpose of every slide included.
@@ -185,7 +196,7 @@ Notes on Mock Presentations:
 - Challenges and Successes slide is v important
 - Tell a story about an actual progression of the project.
 
-# 4/26
+## 4/26
 - Had our final demo today and it went well. It was unfortunate that we were not able to get our PCB to work, but the Arduino
   Mega came through for us big time.
 - Really happy that my final code came out well. We were also able to fix it due to the 2:1 gear ratio with the stepper motor,
@@ -193,5 +204,5 @@ Notes on Mock Presentations:
   to complete one revolution in 12 steps, the stepper must complete one in 24 steps.
 - Hence code was changed from 2048/12 to 2048/24 for the stepper motor.
 
-# 4/29
+## 4/29
 - Went through a dry run of the final presentation. Will change the slide with my code to be a flowchart instead if we have time.
