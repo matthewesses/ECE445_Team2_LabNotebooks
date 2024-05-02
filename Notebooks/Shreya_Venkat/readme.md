@@ -106,24 +106,38 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 - I'm hoping that we can use Arduino IDE because I do not have extensive experience with embedded programming. However if required,
   STM32CubeIDE is another platform we can use to program our microcontroller.
 
+**Current LiDAR setup with STM32 Nucleo:**
+   ![unnamed](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/66e832c1-d52b-4d96-8d85-52a96c98d884)
+
 ## 3/25: Regular TA Meeting #5
 - We removed the accelerometer and gyroscope from our project because we weren't able to integrate them well with the PCB.
 - Starting work on Individual Progress Report. I hope that I'll be able to get I2C working by the deadline, because it would
   be great to have the code and results on there.
 
+**Current Code:**
+  ![unnamed](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/bfc65185-53ec-4368-a4ef-45de034cf1b7)
+- According to the LiDAR datasheet, an initialization must be performed on the LiDAR before attempting to communicate with it,
+  so I have included it in the code.
+- This code does not work, and I am currently trying to debug it.
+
 ## 3/26: Round 2 PCB Submitted
 - The board was edited to include connections missing from the previous board.
+- The first step to debug in my opinion was to make sure that the LiDAR could be detected over I2C. I used code for an I2C
+  scanner from [Adafruit](https://learn.adafruit.com/scanning-i2c-addresses/arduino).
+- When this step did not work, I checked by board connections and realized that my power pin was connected incorrectly.
+- The LiDAR can now be read over I2C! Screenshot of results:
+  ![unnamed2](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/31cea962-dd94-492a-8203-63564bb0d1d4)
 
 ## 3/27: Individual Progress Report
 - I still do not have my program for getting LiDAR distances via I2C working. It will unfortunately not be able to make it
   onto the Individual Progress Report.
 - However, I will include all of the debugging processes I took. At the moment, the STM32 is able to detect the presence of the
   LiDAR over the I2C bus. No distances are being read through it though.
-  ![unnamed](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/66e832c1-d52b-4d96-8d85-52a96c98d884)
   
 ## 3/28: Distance Code COMPLETED
 [Getting Distances with Wire Library on Arduino](https://github.com/PulsedLight3D/LIDARLite_Basics/blob/master/Arduino/LIDARLite_Wire_Library_GetDistance_ContinuousRead/LIDARLite_Wire_Library_GetDistance_ContinuousRead.ino)
 - My original code was very close to the link above, but it helped identify the parts of my code that weren't working correctly.
+- We are submitting our design document for a regrade, so will begin work on that.
 
 ## 4/1: Regular TA Meeting #6
 - Awaiting the delivery of second round PCBs, which is our first one. We need to focus on other subsystems in the meantime,
