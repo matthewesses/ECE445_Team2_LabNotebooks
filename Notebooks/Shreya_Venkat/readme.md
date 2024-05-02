@@ -275,6 +275,9 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
   which means that the LiDAR actually makes two rotations when the stepper gear makes one. Therefore, in order for the LiDAR
   to complete one revolution in 12 steps, the stepper must complete one in 24 steps.
 - Hence code was changed from 2048/12 to 2048/24 for the stepper motor.
+- Snippet of the final results:
+
+  <img width="424" alt="Picture1" src="https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/76669dff-c0f8-43b6-8674-e9caf78394d7">
 
 ## 4/29
 - Went through a dry run of the final presentation. Will change the slide with my code to be a flowchart instead if we have time.
