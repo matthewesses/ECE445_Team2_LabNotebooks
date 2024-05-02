@@ -114,7 +114,9 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 
 **Other Potentially Useful Links:**
 [STM32 Wiki for ECE 445](https://courses.engr.illinois.edu/ece445/wiki/#/)
+
 [I2C on STM w/CubeIDE](https://www.digikey.com/en/maker/projects/getting-started-with-stm32-i2c-example/ba8c2bfef2024654b5dd10012425fa23#:~:text=Open%20STM32CubeIDE%20and%20click%20File,I2C1_SCL%20and%20I2C1_SDA%20functions%2C%20respectively)
+
 - I'm hoping that we can use Arduino IDE because I do not have extensive experience with embedded programming. However if required,
   STM32CubeIDE is another platform we can use to program our microcontroller.
 
@@ -130,6 +132,7 @@ LiDAR Datasheet for Quick Reference: [LiDAR Datasheet](https://www.14core.com/wp
 **Current Code:**
 
   ![unnamed](https://github.com/matthewesses/ECE445_Team2_Lab_Notebooks/assets/156928022/bfc65185-53ec-4368-a4ef-45de034cf1b7)
+  
 - According to the LiDAR datasheet, an initialization must be performed on the LiDAR before attempting to communicate with it,
   so I have included it in the code.
 - This code does not work, and I am currently trying to debug it.
